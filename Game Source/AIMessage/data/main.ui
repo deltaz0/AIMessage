@@ -1,0 +1,46 @@
+
+
+
+CIwUIElement 
+{
+	name "main"
+			
+	CIwUIElement 
+	{
+		name "MiddleLayer"
+		sizeMax  { 30000 30000 }
+		updatable ture
+		CIwUIScrollableView 
+		{
+			name "Feeds"
+			updatable true
+			clipped true
+			verticalScrollBar <button_up>
+
+			wrapUp none
+			wrapDown none
+			wrapLeft jump
+			wrapRight jump
+
+
+		}
+		CIwUILayout 
+		{
+			name ""
+			sizeToSpace true
+			element 
+			{
+				name "Feeds"
+			}
+		}
+	}
+			
+	CIwUILayout
+	{
+		sizeToSpace true
+		element 
+		{	
+			name "MiddleLayer"
+		}
+	}	
+}	

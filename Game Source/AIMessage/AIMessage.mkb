@@ -1,0 +1,76 @@
+#!/usr/bin/env mkb
+package tinyxml
+
+options
+{
+}
+# files specifies all files to build
+files
+{
+    ["src"]
+    (src)
+    main.cpp
+    game.cpp
+	dialManager.cpp
+	dialogueManager.cpp
+	dialogueRow.cpp
+	history.cpp
+	npc.cpp
+	ReplyArray.cpp
+	xmlloader.cpp
+	xmlloader.cpp
+    (h)
+    game.h
+	xmlLoader.h
+	dialManager.h
+	dialogueManager.h
+	dialogueRow.h
+	history.h
+	npc.h
+	xmlLoader.h
+	ReplyArray.h
+	[Data]
+	(data)
+	UI.group
+    IwUIBasicLabelCode.group
+	main.ui
+
+}
+
+includepaths
+{
+    h
+}
+
+subprojects
+{
+    iw2d
+	iwgx
+	iwgxfont
+	iwresmanager
+	tinyxml
+	iwUI
+}
+
+assets
+{
+    (data-ram/data-gles1, data)
+   fonts.group.bin
+   font.gxfont.bin
+   ui.group.bin 
+   IwUIBasicLabelCode.group.bin
+   (data-ram)
+   rickhistory.xml
+   ReplyOptions.xml
+   rick.xml
+   (data)
+   txtButton_small.png
+   dialogue.xml
+
+}
+#### AUTO GENERATED deployment settings from DeployTool.exe. Do not edit below this line ####
+deployments
+{
+	["Default"]
+	iphone-appid='AIMessage'
+}

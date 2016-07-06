@@ -1,0 +1,30 @@
+﻿Build started 5/1/2013 23:15:40.
+     1>Project "e:\4410-5-1-13\team-game-4410\Game Source\AIMessage\build_aimessage_vc10\AIMessage_vc10.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug_AIMessage_vc10_x86\AIMessage_vc10.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         AIMessage_vc10.vcxproj -> e:\4410-5-1-13\team-game-4410\Game Source\AIMessage\build_aimessage_vc10\Debug_AIMessage_vc10_x86\AIMessage.s86
+       PostBuildEvent:
+         echo C:\Marmalade\6.2\s3e\python\python.exe .\process_map.py "e:\4410-5-1-13\team-game-4410\Game Source\AIMessage\build_aimessage_vc10\Debug_AIMessage_vc10_x86\AIMessage.s86"
+         chdir /d "c:\marmalade\6.2\s3e\tools"
+         C:\Marmalade\6.2\s3e\python\python.exe .\process_map.py "e:\4410-5-1-13\team-game-4410\Game Source\AIMessage\build_aimessage_vc10\Debug_AIMessage_vc10_x86\AIMessage.s86"
+         echo "c:\marmalade\6.2\s3e\bin\s3e_plink" -l "e:\4410-5-1-13\team-game-4410\Game Source\AIMessage\build_aimessage_vc10\Debug_AIMessage_vc10_x86\AIMessage.s86"
+         chdir /d "c:\marmalade\6.2\s3e"
+         "c:\marmalade\6.2\s3e\bin\s3e_plink" -l "e:\4410-5-1-13\team-game-4410\Game Source\AIMessage\build_aimessage_vc10\Debug_AIMessage_vc10_x86\AIMessage.s86"
+         
+         :VCEnd
+         C:\Marmalade\6.2\s3e\python\python.exe .\process_map.py "e:\4410-5-1-13\team-game-4410\Game Source\AIMessage\build_aimessage_vc10\Debug_AIMessage_vc10_x86\AIMessage.s86"
+         "c:\marmalade\6.2\s3e\bin\s3e_plink" -l "e:\4410-5-1-13\team-game-4410\Game Source\AIMessage\build_aimessage_vc10\Debug_AIMessage_vc10_x86\AIMessage.s86"
+       FinalizeBuildStatus:
+         Deleting file "Debug_AIMessage_vc10_x86\AIMessage_vc10.unsuccessfulbuild".
+         Touching "Debug_AIMessage_vc10_x86\AIMessage_vc10.lastbuildstate".
+     1>Done Building Project "e:\4410-5-1-13\team-game-4410\Game Source\AIMessage\build_aimessage_vc10\AIMessage_vc10.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.29

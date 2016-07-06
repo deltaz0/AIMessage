@@ -1,0 +1,39 @@
+﻿Build started 4/4/2013 1:37:45 AM.
+     1>Project "c:\Users\Stephen\AIMessage_GoogleCode\April 3\team-game-4410\Game Source\AIMessage\build_aimessage_vc10\AIMessage_vc10.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release_AIMessage_vc10_gcc_arm\AIMessage_vc10.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Marmalade\6.2\s3e\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Release_AIMessage_vc10_gcc_arm\AIMessage.s3e" /INCREMENTAL:NO /NOLOGO /LIBPATH:c:/users/stephen/appdata/roaming/marmalade/packages/6.2.0/libjpeg_6b/lib/arm /LIBPATH:c:/users/stephen/appdata/roaming/marmalade/packages/6.2.0/zlib_1.2.4/lib/arm /LIBPATH:c:/users/stephen/appdata/roaming/marmalade/packages/6.2.0/libpng_1.2.34/lib/arm /LIBPATH:c:/marmalade/6.2/modules/iwutil/lib/arm /LIBPATH:c:/marmalade/6.2/modules/iwgeom/lib/arm /LIBPATH:c:/marmalade/6.2/modules/iwresmanager/lib/arm /LIBPATH:c:/marmalade/6.2/modules/iwgx/atitools /LIBPATH:c:/marmalade/6.2/modules/iwgx/lib/arm /LIBPATH:c:/marmalade/6.2/modules/iwgl/lib/arm /LIBPATH:c:/marmalade/6.2/modules/iwgxfont/lib/arm /LIBPATH:c:/users/stephen/appdata/roaming/marmalade/packages/6.2.0/tiniconv_1.0.1/lib/arm /LIBPATH:c:/marmalade/6.2/modules/iw2d/lib/arm /LIBPATH:c:/marmalade/6.2/modules/iwui/lib/arm /LIBPATH:c:/marmalade/6.2/s3e/lib/arm /NODEFAULTLIB:libcmt /MANIFEST:NO /PDB:"c:\Users\Stephen\AIMessage_GoogleCode\April 3\team-game-4410\Game Source\AIMessage\build_aimessage_vc10\Release_AIMessage_vc10_gcc_arm\AIMessage.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Release_AIMessage_vc10_gcc_arm\AIMessage.lib" /MACHINE:X86 /DLL Release_AIMessage_vc10_gcc_arm\ReplyArray.obj
+         Release_AIMessage_vc10_gcc_arm\dialManager.obj
+         Release_AIMessage_vc10_gcc_arm\dialogueManager.obj
+         Release_AIMessage_vc10_gcc_arm\dialogueRow.obj
+         Release_AIMessage_vc10_gcc_arm\game.obj
+         Release_AIMessage_vc10_gcc_arm\history.obj
+         Release_AIMessage_vc10_gcc_arm\main.obj
+         Release_AIMessage_vc10_gcc_arm\npc.obj
+         Release_AIMessage_vc10_gcc_arm\tinystr.obj
+         Release_AIMessage_vc10_gcc_arm\tinyxml.obj
+         Release_AIMessage_vc10_gcc_arm\tinyxmlerror.obj
+         Release_AIMessage_vc10_gcc_arm\tinyxmlparser.obj
+         Release_AIMessage_vc10_gcc_arm\xmlloader.obj  /include:_IwMain /include:_raise /include:_DllEntryPoint@12/COMMENT:"s3e-custom-tool='c:/marmalade/6.2/s3e/gcc/bin/arm-none-eabi-g++.exe' tooltype=gcc_linker -Wl,--gc-sections -Wl,--as-needed -mthumb-interwork -pie -Wl,--entry=_IwMain -Wl,--no-enum-size-warning -Wl,-Tlinker_script -lc -lm -Wl,-Map='Release_AIMessage_vc10_gcc_arm\/AIMessage.map' -Wl,--start-group -Wl,--whole-archive -liwutil -liwgeom -liwresmanager -liwgx -liwgxfont -liw2d -liwui -Wl,--no-whole-archive -ljpeg -lz -lpng -liwgl -ltiniconv -ls3e_cpp -ls3e -ls3e_api -ls3e_api -Wl,--end-group --plink:--arch=armv5TE --plink:--vfp"
+         ARM Linking(GCC) ...
+         AIMessage_vc10.vcxproj -> c:\Users\Stephen\AIMessage_GoogleCode\April 3\team-game-4410\Game Source\AIMessage\build_aimessage_vc10\Release_AIMessage_vc10_gcc_arm\AIMessage.s3e
+       PostBuildEvent:
+         echo C:\Marmalade\6.2\s3e\python\python.exe .\process_map.py "c:\Users\Stephen\AIMessage_GoogleCode\April 3\team-game-4410\Game Source\AIMessage\build_aimessage_vc10\Release_AIMessage_vc10_gcc_arm\AIMessage.s3e"
+         chdir /d "c:\marmalade\6.2\s3e\tools"
+         C:\Marmalade\6.2\s3e\python\python.exe .\process_map.py "c:\Users\Stephen\AIMessage_GoogleCode\April 3\team-game-4410\Game Source\AIMessage\build_aimessage_vc10\Release_AIMessage_vc10_gcc_arm\AIMessage.s3e"
+         
+         :VCEnd
+         C:\Marmalade\6.2\s3e\python\python.exe .\process_map.py "c:\Users\Stephen\AIMessage_GoogleCode\April 3\team-game-4410\Game Source\AIMessage\build_aimessage_vc10\Release_AIMessage_vc10_gcc_arm\AIMessage.s3e"
+       FinalizeBuildStatus:
+         Deleting file "Release_AIMessage_vc10_gcc_arm\AIMessage_vc10.unsuccessfulbuild".
+         Touching "Release_AIMessage_vc10_gcc_arm\AIMessage_vc10.lastbuildstate".
+     1>Done Building Project "c:\Users\Stephen\AIMessage_GoogleCode\April 3\team-game-4410\Game Source\AIMessage\build_aimessage_vc10\AIMessage_vc10.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.20

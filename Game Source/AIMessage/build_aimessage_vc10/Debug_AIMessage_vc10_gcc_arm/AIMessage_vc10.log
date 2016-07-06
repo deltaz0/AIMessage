@@ -1,0 +1,174 @@
+﻿Build started 3/31/2013 2:04:33 AM.
+     1>Project "c:\Users\Stephen\AIMessage_GoogleCode\March 29\team-game-4410\Game Source\AIMessage\build_aimessage_vc10\AIMessage_vc10.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug_AIMessage_vc10_gcc_arm\AIMessage_vc10.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Performing Custom Build Tools
+         msg: option 'default-buildenv' overridden by command line
+         C:\Marmalade\6.2\s3e\makefile_builder\mkb.py c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/AIMessage.mkb --default-buildenv=vc10 --msvc-project
+         Building project: c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/AIMessage.mkb
+         upstream archive is up-to-date: "http://source.ideaworkslabs.com/upstream/tinyxml_2_5_3.tar.gz"
+     1>c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/AIMessage.mkb(52): warning : filename case does not match the filesystem: c:/marmalade/6.2/modules/iwUI/iwUI.mkf
+     1>c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/AIMessage.mkb(68): warning : asset does not exist: c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/data/RickHistory.xml
+         Done, with 2 warnings.
+         done
+       ClCompile:
+         C:\Marmalade\6.2\s3e\bin\CL.exe /c /I"c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/h" /Ic:/users/stephen/appdata/roaming/marmalade/packages/6.2.0/libjpeg_6b/h /Ic:/users/stephen/appdata/roaming/marmalade/packages/6.2.0/zlib_1.2.4/h /Ic:/users/stephen/appdata/roaming/marmalade/packages/6.2.0/libpng_1.2.34/h /Ic:/marmalade/6.2/modules/iwutil/h /Ic:/marmalade/6.2/modules/iwgeom/h /Ic:/marmalade/6.2/modules/iwresmanager/h /Ic:/marmalade/6.2/modules/iwgl/h /Ic:/marmalade/6.2/modules/iwgx/h /Ic:/users/stephen/appdata/roaming/marmalade/packages/6.2.0/tiniconv_1.0.1/h /Ic:/marmalade/6.2/modules/iwgxfont/h /Ic:/marmalade/6.2/modules/iw2d/h /I"c:/users/stephen/aimessage_googlecode/march 29/team-game-4410/game source/aimessage/upstream" /Ic:/marmalade/6.2/modules/iwui/h /Ic:/marmalade/6.2/s3e/h /Ic:/marmalade/6.2/s3e/h/ext /Ic:/marmalade/6.2/s3e/h/std /Ic:/marmalade/6.2/s3e/h/std/c++ /Ic:/marmalade/6.2/s3e/h/ext_legacy /Ic:/marmalade/6.2/s3e/h/legacy /I. /Z7 /nologo /W3 /WX- /Od /Oy- /X /Gm /EHsc /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug_AIMessage_vc10_gcc_arm\\" /Fd"Debug_AIMessage_vc10_gcc_arm\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/src/ReplyArray.cpp" "c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/src/dialManager.cpp" "c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/src/dialogueManager.cpp" "c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/src/dialogueRow.cpp" "c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/src/game.cpp" "c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/src/history.cpp" "c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/src/main.cpp" "c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/src/npc.cpp" "c:/users/stephen/aimessage_googlecode/march 29/team-game-4410/game source/aimessage/upstream/tinystr.cpp" "c:/users/stephen/aimessage_googlecode/march 29/team-game-4410/game source/aimessage/upstream/tinyxml.cpp" "c:/users/stephen/aimessage_googlecode/march 29/team-game-4410/game source/aimessage/upstream/tinyxmlerror.cpp" "c:/users/stephen/aimessage_googlecode/march 29/team-game-4410/game source/aimessage/upstream/tinyxmlparser.cpp" "c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/src/xmlloader.cpp" /S3Eproject /J /Fe"s3e-custom-tool='c:/marmalade/6.2/s3e/gcc/bin/arm-none-eabi-gcc.exe' tooltype=gcc_compiler -funsigned-char -fno-strict-aliasing -fno-stack-protector -fno-short-enums -fshort-wchar -Wall -fomit-frame-pointer -fmessage-length=0 -Wno-unused -Wno-parentheses -save-temps -ffunction-sections -mstructure-size-boundary=8 -mfpu=vfp -mfloat-abi=softfp -mthumb-interwork -march=armv5te -mword-relocations -Wno-switch -Wno-psabi -fvisibility=hidden -nostdinc --cppflag=-Wno-reorder --cppflag=-fvisibility-inlines-hidden --cppflag=-fno-exceptions --cppflag=-nostdinc++ -g -O0" /FD  /FI"c:\Users\Stephen\AIMessage_GoogleCode\March 29\team-game-4410\Game Source\AIMessage\build_aimessage_vc10\temp_defines_debug.h"
+         ARM Compiling(GCC) c:\Users\Stephen\AIMessage_GoogleCode\March 29\team-game-4410\Game Source\AIMessage\src\ReplyArray.cpp ...
+         c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/src/ReplyArray.cpp( In static member function 'static void CReplyArray) ::initReplies()':
+         
+         
+     1>c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/src/ReplyArray.cpp(30): warning : deprecated conversion from string constant to 'char*'
+         
+         
+         c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/src/ReplyArray.cpp( In static member function 'static void CReplyArray) ::clearReplies()':
+         
+         
+     1>c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/src/ReplyArray.cpp(38): warning : comparison with string literal results in unspecified behaviour
+         
+         
+         ARM Compiling(GCC) c:\Users\Stephen\AIMessage_GoogleCode\March 29\team-game-4410\Game Source\AIMessage\src\dialManager.cpp ...
+         ARM Compiling(GCC) c:\Users\Stephen\AIMessage_GoogleCode\March 29\team-game-4410\Game Source\AIMessage\src\dialogueManager.cpp ...
+         ARM Compiling(GCC) c:\Users\Stephen\AIMessage_GoogleCode\March 29\team-game-4410\Game Source\AIMessage\src\dialogueRow.cpp ...
+         c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/src/dialogueRow.cpp( In constructor 'CDialogueRow) ::CDialogueRow()':
+         
+         
+     1>c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/src/dialogueRow.cpp(25): warning : deprecated conversion from string constant to 'char*'
+         
+         
+     1>c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/src/dialogueRow.cpp(25): warning : deprecated conversion from string constant to 'char*'
+         
+         
+     1>c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/src/dialogueRow.cpp(25): warning : deprecated conversion from string constant to 'char*'
+         
+         
+     1>c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/src/dialogueRow.cpp(25): warning : deprecated conversion from string constant to 'char*'
+         
+         
+     1>c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/src/dialogueRow.cpp(25): warning : deprecated conversion from string constant to 'char*'
+         
+         
+         ARM Compiling(GCC) c:\Users\Stephen\AIMessage_GoogleCode\March 29\team-game-4410\Game Source\AIMessage\src\game.cpp ...
+         c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/src/game.cpp( In constructor 'CGame) ::CGame()':
+         
+         
+     1>c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/src/game.cpp(48): warning : deprecated conversion from string constant to 'char*'
+         
+         
+         c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/src/game.cpp( In member function 'void CGame) ::Update()':
+         
+         
+     1>c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/src/game.cpp(99): warning : comparison between signed and unsigned integer expressions
+         
+         
+     1>c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/src/game.cpp(99): warning : comparison between signed and unsigned integer expressions
+         
+         
+     1>c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/src/game.cpp(99): warning : comparison between signed and unsigned integer expressions
+         
+         
+     1>c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/src/game.cpp(99): warning : comparison between signed and unsigned integer expressions
+         
+         
+         c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/src/game.cpp( In member function 'void CGame) ::Render()':
+         
+         
+     1>c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/src/game.cpp(152): warning : comparison between signed and unsigned integer expressions
+         
+         
+     1>c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/src/game.cpp(164): warning : comparison between signed and unsigned integer expressions
+         
+         
+     1>c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/src/game.cpp(257): warning : deprecated conversion from string constant to 'char*'
+         
+         
+         ARM Compiling(GCC) c:\Users\Stephen\AIMessage_GoogleCode\March 29\team-game-4410\Game Source\AIMessage\src\history.cpp ...
+         c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/src/history.cpp( In constructor 'CHistory) ::CHistory(char*)':
+         
+         
+     1>c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/src/history.cpp(21): warning : deprecated conversion from string constant to 'char*'
+         
+         
+     1>c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/src/history.cpp(54): warning : deprecated conversion from string constant to 'char*'
+         
+         
+         c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/src/history.cpp( In member function 'bool CHistory) ::addNpcTextToHist(int, char*)':
+         
+         
+     1>c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/src/history.cpp(78): warning : deprecated conversion from string constant to 'char*'
+         
+         
+         c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/src/history.cpp( In member function 'bool CHistory) ::addPlayerTextToHist(int, char*)':
+         
+         
+     1>c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/src/history.cpp(113): warning : deprecated conversion from string constant to 'char*'
+         
+         
+         ARM Compiling(GCC) c:\Users\Stephen\AIMessage_GoogleCode\March 29\team-game-4410\Game Source\AIMessage\src\main.cpp ...
+         ARM Compiling(GCC) c:\Users\Stephen\AIMessage_GoogleCode\March 29\team-game-4410\Game Source\AIMessage\src\npc.cpp ...
+         c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/src/npc.cpp( In constructor 'CNpc) ::CNpc(char*)':
+         
+         
+     1>c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/src/npc.cpp(26): warning : deprecated conversion from string constant to 'char*'
+         
+         
+     1>c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/src/npc.cpp(44): warning : deprecated conversion from string constant to 'char*'
+         
+         
+         c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/src/npc.cpp( In member function 'char* CNpc) ::getText()':
+         
+         
+     1>c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/src/npc.cpp(75): warning : deprecated conversion from string constant to 'char*'
+         
+         
+     1>c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/src/npc.cpp(84): warning : deprecated conversion from string constant to 'char*'
+         
+         
+         c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/src/npc.cpp( In member function 'char* CNpc) ::sendText()':
+         
+         
+     1>c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/src/npc.cpp(145): warning : deprecated conversion from string constant to 'char*'
+         
+         
+         ARM Compiling(GCC) c:\users\stephen\aimessage_googlecode\march 29\team-game-4410\game source\aimessage\upstream\tinystr.cpp ...
+         ARM Compiling(GCC) c:\users\stephen\aimessage_googlecode\march 29\team-game-4410\game source\aimessage\upstream\tinyxml.cpp ...
+         ARM Compiling(GCC) c:\users\stephen\aimessage_googlecode\march 29\team-game-4410\game source\aimessage\upstream\tinyxmlerror.cpp ...
+         ARM Compiling(GCC) c:\users\stephen\aimessage_googlecode\march 29\team-game-4410\game source\aimessage\upstream\tinyxmlparser.cpp ...
+         ARM Compiling(GCC) c:\Users\Stephen\AIMessage_GoogleCode\March 29\team-game-4410\Game Source\AIMessage\src\xmlloader.cpp ...
+         c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/src/xmlloader.cpp( In member function 'char** CXmlLoader) ::getNextRowArray()':
+         
+         
+     1>c:/Users/Stephen/AIMessage_GoogleCode/March 29/team-game-4410/Game Source/AIMessage/src/xmlloader.cpp(37): warning : deprecated conversion from string constant to 'char*'
+         
+         
+       Link:
+         C:\Marmalade\6.2\s3e\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug_AIMessage_vc10_gcc_arm\AIMessage.s3e" /INCREMENTAL /NOLOGO /LIBPATH:c:/users/stephen/appdata/roaming/marmalade/packages/6.2.0/libjpeg_6b/lib/arm /LIBPATH:c:/users/stephen/appdata/roaming/marmalade/packages/6.2.0/zlib_1.2.4/lib/arm /LIBPATH:c:/users/stephen/appdata/roaming/marmalade/packages/6.2.0/libpng_1.2.34/lib/arm /LIBPATH:c:/marmalade/6.2/modules/iwutil/lib/arm /LIBPATH:c:/marmalade/6.2/modules/iwgeom/lib/arm /LIBPATH:c:/marmalade/6.2/modules/iwresmanager/lib/arm /LIBPATH:c:/marmalade/6.2/modules/iwgx/atitools /LIBPATH:c:/marmalade/6.2/modules/iwgx/lib/arm /LIBPATH:c:/marmalade/6.2/modules/iwgl/lib/arm /LIBPATH:c:/marmalade/6.2/modules/iwgxfont/lib/arm /LIBPATH:c:/users/stephen/appdata/roaming/marmalade/packages/6.2.0/tiniconv_1.0.1/lib/arm /LIBPATH:c:/marmalade/6.2/modules/iw2d/lib/arm /LIBPATH:c:/marmalade/6.2/modules/iwui/lib/arm /LIBPATH:c:/marmalade/6.2/s3e/lib/arm /NODEFAULTLIB:libcmt /MANIFEST:NO /PDB:"c:\Users\Stephen\AIMessage_GoogleCode\March 29\team-game-4410\Game Source\AIMessage\build_aimessage_vc10\Debug_AIMessage_vc10_gcc_arm\AIMessage.pdb" /SUBSYSTEM:WINDOWS /OPT:NOREF /OPT:NOICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug_AIMessage_vc10_gcc_arm\AIMessage.lib" /MACHINE:X86 /DLL Debug_AIMessage_vc10_gcc_arm\ReplyArray.obj
+         Debug_AIMessage_vc10_gcc_arm\dialManager.obj
+         Debug_AIMessage_vc10_gcc_arm\dialogueManager.obj
+         Debug_AIMessage_vc10_gcc_arm\dialogueRow.obj
+         Debug_AIMessage_vc10_gcc_arm\game.obj
+         Debug_AIMessage_vc10_gcc_arm\history.obj
+         Debug_AIMessage_vc10_gcc_arm\main.obj
+         Debug_AIMessage_vc10_gcc_arm\npc.obj
+         Debug_AIMessage_vc10_gcc_arm\tinystr.obj
+         Debug_AIMessage_vc10_gcc_arm\tinyxml.obj
+         Debug_AIMessage_vc10_gcc_arm\tinyxmlerror.obj
+         Debug_AIMessage_vc10_gcc_arm\tinyxmlparser.obj
+         Debug_AIMessage_vc10_gcc_arm\xmlloader.obj  /include:_IwMain /include:_raise /include:_DllEntryPoint@12/COMMENT:"s3e-custom-tool='c:/marmalade/6.2/s3e/gcc/bin/arm-none-eabi-g++.exe' tooltype=gcc_linker -Wl,--gc-sections -Wl,--as-needed -mthumb-interwork -pie -Wl,--entry=_IwMain -Wl,--no-enum-size-warning -Wl,-Tlinker_script -lc -lm -Wl,-Map='Debug_AIMessage_vc10_gcc_arm\/AIMessage.map' -Wl,--start-group -Wl,--whole-archive -liwutil_d -liwgeom_d -liwresmanager_d -liwgx_d -liwgxfont_d -liw2d_d -liwui_d -Wl,--no-whole-archive -ljpeg_d -lz_d -lpng_d -liwgl_d -ltiniconv_d -ls3e_cpp_d -ls3e_d -ls3e_api -ls3e_api -Wl,--end-group --plink:--arch=armv5TE --plink:--vfp"
+         ARM Linking(GCC) ...
+         AIMessage_vc10.vcxproj -> c:\Users\Stephen\AIMessage_GoogleCode\March 29\team-game-4410\Game Source\AIMessage\build_aimessage_vc10\Debug_AIMessage_vc10_gcc_arm\AIMessage.s3e
+       PostBuildEvent:
+         echo C:\Marmalade\6.2\s3e\python\python.exe .\process_map.py "c:\Users\Stephen\AIMessage_GoogleCode\March 29\team-game-4410\Game Source\AIMessage\build_aimessage_vc10\Debug_AIMessage_vc10_gcc_arm\AIMessage.s3e"
+         chdir /d "c:\marmalade\6.2\s3e\tools"
+         C:\Marmalade\6.2\s3e\python\python.exe .\process_map.py "c:\Users\Stephen\AIMessage_GoogleCode\March 29\team-game-4410\Game Source\AIMessage\build_aimessage_vc10\Debug_AIMessage_vc10_gcc_arm\AIMessage.s3e"
+         
+         :VCEnd
+         C:\Marmalade\6.2\s3e\python\python.exe .\process_map.py "c:\Users\Stephen\AIMessage_GoogleCode\March 29\team-game-4410\Game Source\AIMessage\build_aimessage_vc10\Debug_AIMessage_vc10_gcc_arm\AIMessage.s3e"
+       FinalizeBuildStatus:
+         Deleting file "Debug_AIMessage_vc10_gcc_arm\AIMessage_vc10.unsuccessfulbuild".
+         Touching "Debug_AIMessage_vc10_gcc_arm\AIMessage_vc10.lastbuildstate".
+     1>Done Building Project "c:\Users\Stephen\AIMessage_GoogleCode\March 29\team-game-4410\Game Source\AIMessage\build_aimessage_vc10\AIMessage_vc10.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:17.63

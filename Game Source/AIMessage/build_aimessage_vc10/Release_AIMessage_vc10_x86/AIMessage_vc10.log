@@ -1,0 +1,106 @@
+﻿Build started 4/16/2013 2:15:05 AM.
+     1>Project "c:\Users\Stephen\AIMessage_GoogleCode\April 16\team-game-4410\Game Source\AIMessage\build_aimessage_vc10\AIMessage_vc10.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release_AIMessage_vc10_x86\AIMessage_vc10.unsuccessfulbuild".
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         C:\Marmalade\6.2\s3e\bin\CL.exe /c /I"c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/h" /Ic:/users/stephen/appdata/roaming/marmalade/packages/6.2.0/libjpeg_6b/h /Ic:/users/stephen/appdata/roaming/marmalade/packages/6.2.0/zlib_1.2.4/h /Ic:/users/stephen/appdata/roaming/marmalade/packages/6.2.0/libpng_1.2.34/h /Ic:/marmalade/6.2/modules/iwutil/h /Ic:/marmalade/6.2/modules/iwgeom/h /Ic:/marmalade/6.2/modules/iwresmanager/h /Ic:/marmalade/6.2/modules/iwgl/h /Ic:/marmalade/6.2/modules/iwgx/h /Ic:/users/stephen/appdata/roaming/marmalade/packages/6.2.0/tiniconv_1.0.1/h /Ic:/marmalade/6.2/modules/iwgxfont/h /Ic:/marmalade/6.2/modules/iw2d/h /I"c:/users/stephen/aimessage_googlecode/april 16/team-game-4410/game source/aimessage/upstream" /Ic:/marmalade/6.2/modules/iwui/h /Ic:/marmalade/6.2/s3e/h /Ic:/marmalade/6.2/s3e/h/ext /Ic:/marmalade/6.2/s3e/h/std /Ic:/marmalade/6.2/s3e/h/std/c++ /Ic:/marmalade/6.2/s3e/h/ext_legacy /Ic:/marmalade/6.2/s3e/h/legacy /I. /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /X /Gm /EHsc /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release_AIMessage_vc10_x86\\" /Fd"Release_AIMessage_vc10_x86\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp" "c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/main.cpp" /S3Eproject /J /FI"c:\Users\Stephen\AIMessage_GoogleCode\April 16\team-game-4410\Game Source\AIMessage\build_aimessage_vc10\temp_defines_release.h"
+         game.cpp
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(107): warning C4018: '>' : signed/unsigned mismatch
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(107): warning C4018: '<' : signed/unsigned mismatch
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(107): warning C4018: '>' : signed/unsigned mismatch
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(107): warning C4018: '<' : signed/unsigned mismatch
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(197): warning C4244: 'argument' : conversion from 'double' to 'int16', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(213): warning C4244: 'argument' : conversion from 'float' to 'int16', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(213): warning C4244: 'argument' : conversion from 'float' to 'int16', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(213): warning C4244: 'argument' : conversion from 'float' to 'int16', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(213): warning C4244: 'argument' : conversion from 'float' to 'int16', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(223): warning C4244: '+=' : conversion from 'float' to 'int16', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(229): warning C4244: 'argument' : conversion from 'float' to 'int16', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(229): warning C4244: 'argument' : conversion from 'float' to 'int16', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(229): warning C4244: 'argument' : conversion from 'float' to 'int16', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(229): warning C4244: 'argument' : conversion from 'float' to 'int16', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(239): warning C4244: '+=' : conversion from 'float' to 'int16', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(296): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(299): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(307): warning C4244: 'argument' : conversion from 'float' to 'int16', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(307): warning C4244: 'argument' : conversion from 'float' to 'int16', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(307): warning C4244: 'argument' : conversion from 'float' to 'int16', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(307): warning C4244: 'argument' : conversion from 'float' to 'int16', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(317): warning C4244: '+=' : conversion from 'float' to 'int16', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(318): warning C4244: '-=' : conversion from 'float' to 'int16', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(326): warning C4244: '-=' : conversion from 'float' to 'int16', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(327): warning C4244: '+=' : conversion from 'float' to 'int16', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(329): warning C4244: '+=' : conversion from 'float' to 'int16', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(339): warning C4244: '+=' : conversion from 'float' to 'int16', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(340): warning C4244: '-=' : conversion from 'float' to 'int16', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(348): warning C4244: '-=' : conversion from 'float' to 'int16', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(349): warning C4244: '+=' : conversion from 'float' to 'int16', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(351): warning C4244: '-=' : conversion from 'float' to 'int16', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(352): warning C4244: '+=' : conversion from 'float' to 'int16', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(362): warning C4244: '+=' : conversion from 'float' to 'int16', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(363): warning C4244: '-=' : conversion from 'float' to 'int16', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(371): warning C4244: '-=' : conversion from 'float' to 'int16', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(372): warning C4244: '+=' : conversion from 'float' to 'int16', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(374): warning C4244: '+=' : conversion from 'float' to 'int16', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(384): warning C4244: '+=' : conversion from 'float' to 'int16', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(385): warning C4244: '-=' : conversion from 'float' to 'int16', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(398): warning C4244: '=' : conversion from 'uint64' to 'int', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(406): warning C4244: 'argument' : conversion from 'double' to 'int16', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(406): warning C4244: 'argument' : conversion from 'double' to 'int16', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(406): warning C4244: 'argument' : conversion from 'float' to 'int16', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(406): warning C4244: 'argument' : conversion from 'float' to 'int16', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(419): warning C4244: 'argument' : conversion from 'double' to 'iwfixed', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(426): warning C4244: 'argument' : conversion from 'double' to 'int16', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(426): warning C4244: 'argument' : conversion from 'double' to 'int16', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(426): warning C4244: 'argument' : conversion from 'float' to 'int16', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(426): warning C4244: 'argument' : conversion from 'float' to 'int16', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(439): warning C4244: 'argument' : conversion from 'double' to 'iwfixed', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(452): warning C4244: 'argument' : conversion from 'double' to 'int16', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(452): warning C4244: 'argument' : conversion from 'double' to 'int16', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(452): warning C4244: 'argument' : conversion from 'float' to 'int16', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(465): warning C4244: 'argument' : conversion from 'double' to 'iwfixed', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(472): warning C4244: 'argument' : conversion from 'double' to 'int16', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(472): warning C4244: 'argument' : conversion from 'double' to 'int16', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(472): warning C4244: 'argument' : conversion from 'float' to 'int16', possible loss of data
+     1>c:/Users/Stephen/AIMessage_GoogleCode/April 16/team-game-4410/Game Source/AIMessage/src/game.cpp(485): warning C4244: 'argument' : conversion from 'double' to 'iwfixed', possible loss of data
+         Generating Code...
+         Compiling...
+         main.cpp
+         Generating Code...
+       Link:
+         C:\Marmalade\6.2\s3e\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Release_AIMessage_vc10_x86\AIMessage.s86" /INCREMENTAL:NO /NOLOGO /LIBPATH:c:/users/stephen/appdata/roaming/marmalade/packages/6.2.0/libjpeg_6b/lib/x86 /LIBPATH:c:/users/stephen/appdata/roaming/marmalade/packages/6.2.0/zlib_1.2.4/lib/x86 /LIBPATH:c:/users/stephen/appdata/roaming/marmalade/packages/6.2.0/libpng_1.2.34/lib/x86 /LIBPATH:c:/marmalade/6.2/modules/iwutil/lib/x86 /LIBPATH:c:/marmalade/6.2/modules/iwgeom/lib/x86 /LIBPATH:c:/marmalade/6.2/modules/iwresmanager/lib/x86 /LIBPATH:c:/marmalade/6.2/modules/iwgx/atitools /LIBPATH:c:/marmalade/6.2/modules/iwgx/lib/x86 /LIBPATH:c:/marmalade/6.2/modules/iwgl/lib/x86 /LIBPATH:c:/marmalade/6.2/modules/iwgxfont/lib/x86 /LIBPATH:c:/users/stephen/appdata/roaming/marmalade/packages/6.2.0/tiniconv_1.0.1/lib/x86 /LIBPATH:c:/marmalade/6.2/modules/iw2d/lib/x86 /LIBPATH:c:/marmalade/6.2/modules/iwui/lib/x86 /LIBPATH:c:/marmalade/6.2/s3e/lib/x86 vc6_compat.lib jpeg.lib z.lib png.lib iwutil.lib iwgeom.lib iwresmanager.lib ATI_Compress_MT_VC7.lib iwgx.lib iwgl.lib iwgxfont.lib tiniconv.lib iw2d.lib iwui.lib s3e_cpp_vc8.lib s3e.lib s3e_api.lib /NODEFAULTLIB:libcmt /MANIFEST:NO /PDB:"c:\Users\Stephen\AIMessage_GoogleCode\April 16\team-game-4410\Game Source\AIMessage\build_aimessage_vc10\Release_AIMessage_vc10_x86\AIMessage.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /ENTRY:"DllEntryPoint" /DYNAMICBASE /NXCOMPAT /IMPLIB:"Release_AIMessage_vc10_x86\AIMessage.lib" /MACHINE:X86 /DLL Release_AIMessage_vc10_x86\ReplyArray.obj
+         Release_AIMessage_vc10_x86\dialManager.obj
+         Release_AIMessage_vc10_x86\dialogueManager.obj
+         Release_AIMessage_vc10_x86\dialogueRow.obj
+         Release_AIMessage_vc10_x86\game.obj
+         Release_AIMessage_vc10_x86\history.obj
+         Release_AIMessage_vc10_x86\main.obj
+         Release_AIMessage_vc10_x86\npc.obj
+         Release_AIMessage_vc10_x86\tinystr.obj
+         Release_AIMessage_vc10_x86\tinyxml.obj
+         Release_AIMessage_vc10_x86\tinyxmlerror.obj
+         Release_AIMessage_vc10_x86\tinyxmlparser.obj
+         Release_AIMessage_vc10_x86\xmlloader.obj  /include:_IwMain /include:_raise /include:_DllEntryPoint@12
+            Creating library Release_AIMessage_vc10_x86\AIMessage.lib and object Release_AIMessage_vc10_x86\AIMessage.exp
+         AIMessage_vc10.vcxproj -> c:\Users\Stephen\AIMessage_GoogleCode\April 16\team-game-4410\Game Source\AIMessage\build_aimessage_vc10\Release_AIMessage_vc10_x86\AIMessage.s86
+       PostBuildEvent:
+         echo C:\Marmalade\6.2\s3e\python\python.exe .\process_map.py "c:\Users\Stephen\AIMessage_GoogleCode\April 16\team-game-4410\Game Source\AIMessage\build_aimessage_vc10\Release_AIMessage_vc10_x86\AIMessage.s86"
+         chdir /d "c:\marmalade\6.2\s3e\tools"
+         C:\Marmalade\6.2\s3e\python\python.exe .\process_map.py "c:\Users\Stephen\AIMessage_GoogleCode\April 16\team-game-4410\Game Source\AIMessage\build_aimessage_vc10\Release_AIMessage_vc10_x86\AIMessage.s86"
+         echo "c:\marmalade\6.2\s3e\bin\s3e_plink" -l "c:\Users\Stephen\AIMessage_GoogleCode\April 16\team-game-4410\Game Source\AIMessage\build_aimessage_vc10\Release_AIMessage_vc10_x86\AIMessage.s86"
+         chdir /d "c:\marmalade\6.2\s3e"
+         "c:\marmalade\6.2\s3e\bin\s3e_plink" -l "c:\Users\Stephen\AIMessage_GoogleCode\April 16\team-game-4410\Game Source\AIMessage\build_aimessage_vc10\Release_AIMessage_vc10_x86\AIMessage.s86"
+         
+         :VCEnd
+         C:\Marmalade\6.2\s3e\python\python.exe .\process_map.py "c:\Users\Stephen\AIMessage_GoogleCode\April 16\team-game-4410\Game Source\AIMessage\build_aimessage_vc10\Release_AIMessage_vc10_x86\AIMessage.s86"
+         "c:\marmalade\6.2\s3e\bin\s3e_plink" -l "c:\Users\Stephen\AIMessage_GoogleCode\April 16\team-game-4410\Game Source\AIMessage\build_aimessage_vc10\Release_AIMessage_vc10_x86\AIMessage.s86"
+       FinalizeBuildStatus:
+         Deleting file "Release_AIMessage_vc10_x86\AIMessage_vc10.unsuccessfulbuild".
+         Touching "Release_AIMessage_vc10_x86\AIMessage_vc10.lastbuildstate".
+     1>Done Building Project "c:\Users\Stephen\AIMessage_GoogleCode\April 16\team-game-4410\Game Source\AIMessage\build_aimessage_vc10\AIMessage_vc10.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.30

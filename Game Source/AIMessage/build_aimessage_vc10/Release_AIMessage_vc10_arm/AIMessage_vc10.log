@@ -1,0 +1,17 @@
+﻿Build started 2/21/2013 11:51:01 PM.
+     1>Project "c:\Users\Stephen\Documents\AIMessage\build_aimessage_vc10\AIMessage_vc10.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release_AIMessage_vc10_arm\AIMessage_vc10.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         C:\Marmalade\6.2\s3e\bin\CL.exe /c /Ic:/Users/Stephen/Documents/AIMessage/h /Ic:/users/stephen/appdata/roaming/marmalade/packages/6.2.0/libjpeg_6b/h /Ic:/users/stephen/appdata/roaming/marmalade/packages/6.2.0/zlib_1.2.4/h /Ic:/users/stephen/appdata/roaming/marmalade/packages/6.2.0/libpng_1.2.34/h /Ic:/marmalade/6.2/modules/iwutil/h /Ic:/marmalade/6.2/modules/iwgeom/h /Ic:/marmalade/6.2/modules/iwresmanager/h /Ic:/marmalade/6.2/modules/iwgl/h /Ic:/marmalade/6.2/modules/iwgx/h /Ic:/users/stephen/appdata/roaming/marmalade/packages/6.2.0/tiniconv_1.0.1/h /Ic:/marmalade/6.2/modules/iwgxfont/h /Ic:/marmalade/6.2/modules/iw2d/h /Ic:/marmalade/6.2/s3e/h /Ic:/marmalade/6.2/s3e/h/ext /Ic:/marmalade/6.2/s3e/h/std /Ic:/marmalade/6.2/s3e/h/std/c++ /Ic:/marmalade/6.2/s3e/h/ext_legacy /Ic:/marmalade/6.2/s3e/h/legacy /I. /Z7 /nologo /W3 /WX- /O2 /Oi /Oy- /X /Gm /EHsc /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release_AIMessage_vc10_arm\\" /Fd"Release_AIMessage_vc10_arm\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt c:/Users/Stephen/Documents/AIMessage/src/game.cpp c:/Users/Stephen/Documents/AIMessage/src/main.cpp /S3Eproject /J /Fe"s3e-custom-tool='__invalid__rvct' tooltype=rvct_compiler --enum_is_int --unsigned_chars --interleave --diag_remark=1,9,111,174,128,177,196,381,550,611,815,1293,1295,1299,1300,1304,3017,3052,390 --apcs=/noropi --library_interface=aeabi_glibc --no-hide-all --no_unaligned_access --no_exceptions --fpu=softvfp+vfpv2 --apcs=/interwork --cpu=5TE --no-rvct -Jc:/MARMAL~1/6.2/s3e/h/std --asm --cppflag=--cpp --split_sections -Otime -O3 --diag_style=ide --default_extension=obj " /FD  /FI"c:\Users\Stephen\Documents\AIMessage\build_aimessage_vc10\temp_defines_release.h"
+         compiler_wrapper: : error : No RVCT compiler is configured. Please install and license RVCT
+         compiler_wrapper: (available from www.arm.com) and use the Marmalade Configuration Utility to
+         compiler_wrapper: configure its use with Marmalade.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets(147,5): error MSB6006: "CL.exe" exited with code 1.
+     1>Done Building Project "c:\Users\Stephen\Documents\AIMessage\build_aimessage_vc10\AIMessage_vc10.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.37

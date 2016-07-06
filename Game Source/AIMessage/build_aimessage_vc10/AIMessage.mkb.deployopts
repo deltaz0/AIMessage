@@ -1,0 +1,7 @@
+build "X86 Release"
+outdir "c:/Users/Stephen/AIMessage_GoogleCode/April 3/team-game-4410/Game Source/AIMessage/build_aimessage_vc10"
+!task !name "Default:win32-sim" "Package"
+!task !name "Default:win32" "Package"
+!config !name "Default"
+!config <os> "win32" "win32-sim"
+configlist "Default",

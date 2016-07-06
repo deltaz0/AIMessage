@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DialogueTable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Dialogue>
+		<ID>0</ID>
+		<NPCText>Hey…so…heads up…your roommate got a little shwastyfaced last night…so we dropped him off at your place. </NPCText>
+		<ReplyOptionA>b</ReplyOptionA>
+		<ReplyOptionB>c</ReplyOptionB>
+		<ReplyOptionC>f</ReplyOptionC>
+		<ReplyOptionD>i</ReplyOptionD>
+		<PlayerReplyA>Okay, cool.  Crazy night eh? Haha.</PlayerReplyA>
+		<PlayerReplyB>Whoa…um…well…crazy…that's not good…</PlayerReplyB>
+		<PlayerReplyC>Whoa…is he alright? Like…do I need to go check on him? I don't know if he's even still in…I woke up super late.</PlayerReplyC>
+		<PlayerReplyD>Well, hell, did he do anything crazy or just pass out?</PlayerReplyD>
+		<APointsTo>1</APointsTo>
+		<BPointsTo>1</BPointsTo>
+		<CPointsTo>2</CPointsTo>
+		<DPointsTo>1</DPointsTo>
+	</Dialogue>
+	<Dialogue>
+		<ID>1</ID>
+		<NPCText>Well…lets just say it was a crazier night than normal last night…some…stuff happened…I don't know if he'll remember, but I don't know if I wanna tell you about it…</NPCText>
+		<ReplyOptionA>c</ReplyOptionA>
+		<ReplyOptionB>g</ReplyOptionB>
+		<ReplyOptionC>f</ReplyOptionC>
+		<ReplyOptionD>i</ReplyOptionD>
+		<PlayerReplyA>Hmmm, well, I guess I can ask him, not that he'll remember I suppose</PlayerReplyA>
+		<PlayerReplyB>Haha…wait…so is this a normal occurance?</PlayerReplyB>
+		<PlayerReplyC>Haha…wait…so is this a normal occurance?</PlayerReplyC>
+		<PlayerReplyD>He gonna be alright?</PlayerReplyD>
+		<APointsTo>3</APointsTo>
+		<BPointsTo>4</BPointsTo>
+		<CPointsTo>4</CPointsTo>
+		<DPointsTo>2</DPointsTo>
+	</Dialogue>
+	<Dialogue>
+		<ID>2</ID>
+		<NPCText>Yeah, he'll be fine.  I mean, he doesn't do this often…but its happened before…last night was a bit crazier than normal…but yeah…I don't know if he'll want you to know what happened.</NPCText>
+		<ReplyOptionA>c</ReplyOptionA>
+		<ReplyOptionB>g</ReplyOptionB>
+		<ReplyOptionC>f</ReplyOptionC>
+		<ReplyOptionD>z</ReplyOptionD>
+		<PlayerReplyA>Hmmm, well, I guess I can ask him, not that he'll remember I suppose</PlayerReplyA>
+		<PlayerReplyB>Haha…wait…so is this a normal occurance?</PlayerReplyB>
+		<PlayerReplyC>Haha…wait…so is this a normal occurance?</PlayerReplyC>
+		<PlayerReplyD>null</PlayerReplyD>
+		<APointsTo>3</APointsTo>
+		<BPointsTo>4</BPointsTo>
+		<CPointsTo>4</CPointsTo>
+		<DPointsTo>3</DPointsTo>
+	</Dialogue>
+	<Dialogue>
+		<ID>3</ID>
+		<NPCText>Yeah…haha I don't know that he'll remember anything, or if he'd want to hahah. </NPCText>
+		<ReplyOptionA>j</ReplyOptionA>
+		<ReplyOptionB>g</ReplyOptionB>
+		<ReplyOptionC>f</ReplyOptionC>
+		<ReplyOptionD>z</ReplyOptionD>
+		<PlayerReplyA>Wouldn't want to huh? I hope there's not a goat involved… </PlayerReplyA>
+		<PlayerReplyB>So is this a normal sort of occurance?</PlayerReplyB>
+		<PlayerReplyC>So is this a normal sort of occurance?</PlayerReplyC>
+		<PlayerReplyD>null</PlayerReplyD>
+		<APointsTo>4</APointsTo>
+		<BPointsTo>4</BPointsTo>
+		<CPointsTo>4</CPointsTo>
+		<DPointsTo>4</DPointsTo>
+	</Dialogue>
+	<Dialogue>
+		<ID>4</ID>
+		<NPCText>Hahaa no.  Well I'm going to class, I'll talk to you later.</NPCText>
+		<ReplyOptionA>a</ReplyOptionA>
+		<ReplyOptionB>b</ReplyOptionB>
+		<ReplyOptionC>h</ReplyOptionC>
+		<ReplyOptionD>c</ReplyOptionD>
+		<PlayerReplyA>ttyl</PlayerReplyA>
+		<PlayerReplyB>ttyl</PlayerReplyB>
+		<PlayerReplyC>ttyl</PlayerReplyC>
+		<PlayerReplyD>ttyl</PlayerReplyD>
+		<APointsTo>5</APointsTo>
+		<BPointsTo>5</BPointsTo>
+		<CPointsTo>5</CPointsTo>
+		<DPointsTo>5</DPointsTo>
+	</Dialogue>
+	<Dialogue/>
+	<Dialogue/>
+	<Dialogue/>
+	<Dialogue/>
+	<Dialogue/>
+	<Dialogue/>
+</DialogueTable>

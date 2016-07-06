@@ -1,0 +1,3447 @@
+# 1 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.cpp"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "c:/Users/Stephen/AIMessage_GoogleCode/April 3/team-game-4410/Game Source/AIMessage/build_aimessage_vc10/temp_defines_release.h" 1
+# 1 "<command-line>" 2
+# 1 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.cpp"
+# 25 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.cpp"
+# 1 "c:/marmalade/6.2/s3e/h/std/ctype.h" 1
+# 15 "c:/marmalade/6.2/s3e/h/std/ctype.h"
+# 1 "c:/marmalade/6.2/s3e/h/std/sys/types.h" 1
+# 15 "c:/marmalade/6.2/s3e/h/std/sys/types.h"
+# 1 "c:/marmalade/6.2/s3e/h/s3eTypes.h" 1
+# 35 "c:/marmalade/6.2/s3e/h/s3eTypes.h"
+typedef unsigned char s3e_uint8_t;
+typedef signed char s3e_int8_t;
+typedef unsigned short int s3e_uint16_t;
+typedef signed short int s3e_int16_t;
+typedef unsigned int s3e_uint32_t;
+typedef signed int s3e_int32_t;
+# 49 "c:/marmalade/6.2/s3e/h/s3eTypes.h"
+  typedef signed long long s3e_int64_t;
+  typedef unsigned long long s3e_uint64_t;
+# 72 "c:/marmalade/6.2/s3e/h/s3eTypes.h"
+typedef s3e_uint64_t uint64_t;
+typedef s3e_int64_t int64_t;
+typedef s3e_uint32_t uint32_t;
+typedef s3e_int32_t int32_t;
+typedef s3e_uint16_t uint16_t;
+typedef s3e_int16_t int16_t;
+typedef s3e_uint8_t uint8_t;
+typedef s3e_int8_t int8_t;
+# 94 "c:/marmalade/6.2/s3e/h/s3eTypes.h"
+    typedef int intptr_t;
+    typedef unsigned int uintptr_t;
+# 106 "c:/marmalade/6.2/s3e/h/s3eTypes.h"
+typedef unsigned int uint;
+typedef unsigned short int ushort;
+typedef unsigned long int ulong;
+typedef unsigned char uint8;
+typedef signed char int8;
+
+
+
+
+
+
+
+typedef int64_t int64;
+typedef uint64_t uint64;
+
+
+
+
+
+typedef unsigned int uint32;
+
+
+
+
+
+
+typedef signed int int32;
+
+
+
+
+
+
+typedef uint16_t uint16;
+
+
+
+
+typedef int16_t int16;
+# 224 "c:/marmalade/6.2/s3e/h/s3eTypes.h"
+typedef enum s3eResult
+{
+    S3E_RESULT_SUCCESS = 0,
+    S3E_RESULT_ERROR = 1
+} s3eResult;
+
+
+
+
+typedef uint8 s3eBool;
+# 242 "c:/marmalade/6.2/s3e/h/s3eTypes.h"
+typedef wchar_t s3eWChar;
+# 254 "c:/marmalade/6.2/s3e/h/s3eTypes.h"
+typedef int32 (*s3eCallback) (void* systemData, void* userData);
+# 16 "c:/marmalade/6.2/s3e/h/std/sys/types.h" 2
+# 1 "c:/marmalade/6.2/s3e/h/std/stddef.h" 1
+# 15 "c:/marmalade/6.2/s3e/h/std/stddef.h"
+typedef signed int ptrdiff_t;
+
+
+    typedef unsigned int wint_t;
+    typedef unsigned long int wctype_t;
+
+
+
+
+
+
+
+typedef unsigned int size_t;
+# 17 "c:/marmalade/6.2/s3e/h/std/sys/types.h" 2
+# 1 "c:/marmalade/6.2/s3e/h/std/stdint.h" 1
+# 19 "c:/marmalade/6.2/s3e/h/std/stdint.h"
+typedef signed char int_least8_t;
+typedef short int_least16_t;
+typedef long int_least32_t;
+typedef int64_t int_least64_t;
+
+typedef unsigned char uint_least8_t;
+typedef unsigned short uint_least16_t;
+typedef unsigned long uint_least32_t;
+typedef uint64_t uint_least64_t;
+
+typedef signed char int_fast8_t;
+typedef short int_fast16_t;
+typedef long int_fast32_t;
+typedef int64_t int_fast64_t;
+
+typedef unsigned char uint_fast8_t;
+typedef unsigned short uint_fast16_t;
+typedef unsigned long uint_fast32_t;
+typedef uint64_t uint_fast64_t;
+
+typedef int64_t intmax_t;
+typedef uint64_t uintmax_t;
+# 18 "c:/marmalade/6.2/s3e/h/std/sys/types.h" 2
+# 1 "c:/marmalade/6.2/s3e/h/std/sys/select.h" 1
+# 24 "c:/marmalade/6.2/s3e/h/std/sys/select.h"
+struct timeval;
+
+typedef struct fd_set
+{
+    char fds_bits[256/8];
+} fd_set;
+# 39 "c:/marmalade/6.2/s3e/h/std/sys/select.h"
+extern "C" {
+
+int select(int nfds, fd_set *readfds, fd_set *writefds, fd_set *exceptfds, struct timeval *timeout);
+
+}
+# 19 "c:/marmalade/6.2/s3e/h/std/sys/types.h" 2
+
+
+
+typedef long off_t;
+
+typedef int64_t off64_t;
+
+
+namespace std
+{
+typedef ::size_t size_t;
+}
+
+
+typedef uint u_int;
+typedef uint8_t u_int8_t;
+typedef uint16_t u_int16_t;
+typedef uint32_t u_int32_t;
+typedef uint64_t u_int64_t;
+
+typedef unsigned short u_short;
+typedef unsigned long u_long;
+typedef unsigned char u_char;
+
+typedef int ssize_t;
+typedef int pid_t;
+typedef short uid_t;
+typedef short gid_t;
+typedef int idtype_t;
+typedef int id_t;
+typedef uint32 mode_t;
+typedef short dev_t;
+typedef short ino_t;
+typedef int key_t;
+typedef void* caddr_t;
+# 16 "c:/marmalade/6.2/s3e/h/std/ctype.h" 2
+
+extern "C" {
+# 31 "c:/marmalade/6.2/s3e/h/std/ctype.h"
+int toupper(int c);
+int tolower(int c);
+int isalnum(int c);
+int isalpha(int c);
+
+int isblank(int c);
+int iscntrl(int c);
+int isdigit(int c);
+int isgraph(int c);
+int islower(int c);
+int isprint(int c);
+int ispunct(int c);
+int isspace(int c);
+int isupper(int c);
+int isxdigit(int c);
+
+}
+# 26 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.cpp" 2
+
+
+
+
+
+
+# 1 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.h" 1
+# 36 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.h"
+# 1 "c:/marmalade/6.2/s3e/h/std/stdio.h" 1
+# 19 "c:/marmalade/6.2/s3e/h/std/stdio.h"
+struct __XXFILE;
+typedef struct __XXFILE FILE;
+
+typedef uint32 fpos_t;
+# 38 "c:/marmalade/6.2/s3e/h/std/stdio.h"
+extern "C" {
+# 54 "c:/marmalade/6.2/s3e/h/std/stdio.h"
+extern FILE *__aeabi_stdin;
+extern FILE *__aeabi_stdout;
+extern FILE *__aeabi_stderr;
+# 66 "c:/marmalade/6.2/s3e/h/std/stdio.h"
+FILE *fopen(const char *path, const char *mode);
+int fclose(FILE *fp);
+int fcloseall();
+int fflush(FILE *stream);
+
+FILE *fopen(const char *path, const char *mode);
+FILE *fdopen(int fildes, const char *mode);
+FILE *freopen(const char *path, const char *mode, FILE *stream);
+
+size_t fread(void *ptr, size_t size, size_t nmemb, FILE *stream);
+size_t fwrite(const void *ptr, size_t size, size_t nmemb, FILE *stream);
+
+int fputc(int c, FILE *stream);
+int fputs(const char *s, FILE *stream);
+int putc(int c, FILE *stream);
+int putchar(int c);
+int puts(const char *s);
+
+int fgetc(FILE *stream);
+char *fgets(char *s, int size, FILE *stream);
+int getc(FILE *stream);
+int getchar(void);
+char *gets(char *s);
+int ungetc(int c, FILE *stream);
+
+int fseek(FILE *stream, long offset, int whence);
+long ftell(FILE *stream);
+void rewind(FILE *stream);
+int fgetpos(FILE *stream, fpos_t *pos);
+int fsetpos(FILE *stream, fpos_t *pos);
+
+void flockfile(FILE *filehandle);
+int ftrylockfile(FILE *filehandle);
+void funlockfile(FILE *filehandle);
+
+int getc_unlocked(FILE *stream);
+int getchar_unlocked(void);
+int putc_unlocked(int c, FILE *stream);
+int putchar_unlocked(int c);
+
+FILE *popen(const char *command, const char *type);
+int pclose(FILE *stream);
+
+char *tempnam(const char *dir, const char *pfx);
+
+
+
+
+int printf(const char *format, ...) __attribute__((format(printf, 1, 2)));
+
+
+
+int fprintf(FILE *stream, const char* format, ...) __attribute__((format(printf, 2, 3)));
+
+
+
+int sprintf(char *str, const char* format, ...) __attribute__((format(printf, 2, 3)));
+
+
+
+int snprintf(char *str, size_t size, const char *format, ...) __attribute__((format(printf, 3, 4)));
+
+
+
+
+int scanf(const char *format, ...);
+
+
+
+int fscanf(FILE *stream, const char *format, ...);
+
+
+
+int sscanf(const char *str, const char *format, ...);
+
+void clearerr(FILE *stream);
+int feof(FILE *stream);
+int ferror(FILE *stream);
+int fileno(FILE *stream);
+
+int remove(const char *pathname);
+int rename(const char *oldpath, const char *newpath);
+
+void perror(const char *s);
+
+
+
+FILE *tmpfile(void);
+char *tmpnam(char *s);
+
+void setbuf(FILE *stream, char *buf);
+void setbuffer(FILE *stream, char *buf, size_t size);
+void setlinebuf(FILE *stream);
+int setvbuf(FILE *stream, char *buf, int mode , size_t size);
+
+# 1 "c:/marmalade/6.2/s3e/h/std/stdarg.h" 1
+# 54 "c:/marmalade/6.2/s3e/h/std/stdarg.h"
+typedef __builtin_va_list va_list;
+# 162 "c:/marmalade/6.2/s3e/h/std/stdio.h" 2
+
+int vfprintf(FILE *stream, const char *format, va_list ap);
+int vsprintf(char *str, const char *format, va_list ap);
+int vsnprintf(char *str, size_t size, const char *format, va_list ap);
+int vprintf(const char *format, va_list ap);
+int asprintf(char **strp, const char *fmt, ...);
+int vasprintf(char **strp, const char *fmt, va_list ap);
+
+int vscanf(const char *format, va_list ap);
+int vsscanf(const char *str, const char *format, va_list ap);
+int vfscanf(FILE *stream, const char *format, va_list ap);
+
+}
+# 37 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.h" 2
+# 1 "c:/marmalade/6.2/s3e/h/std/stdlib.h" 1
+# 16 "c:/marmalade/6.2/s3e/h/std/stdlib.h"
+# 1 "c:/marmalade/6.2/s3e/h/std/malloc.h" 1
+# 16 "c:/marmalade/6.2/s3e/h/std/malloc.h"
+# 1 "c:/marmalade/6.2/s3e/h/std/alloca.h" 1
+# 17 "c:/marmalade/6.2/s3e/h/std/alloca.h"
+extern "C" {
+
+
+    extern void *alloca(size_t __size);
+# 35 "c:/marmalade/6.2/s3e/h/std/alloca.h"
+}
+# 17 "c:/marmalade/6.2/s3e/h/std/malloc.h" 2
+
+extern "C" {
+
+void *calloc(size_t nmemb, size_t size);
+void *malloc(size_t size);
+void free(void *ptr);
+void *realloc(void *ptr, size_t size);
+
+}
+# 17 "c:/marmalade/6.2/s3e/h/std/stdlib.h" 2
+# 28 "c:/marmalade/6.2/s3e/h/std/stdlib.h"
+extern "C" {
+
+double atof(const char* string);
+int atoi(const char *nptr);
+long atol(const char *nptr);
+int64_t atoll(const char *nptr);
+int64_t atoq(const char *nptr);
+int abs(int j);
+long int labs(long int j);
+int64_t llabs(int64_t j);
+void qsort(void *base, size_t nmemb, size_t size, int(*compar)(const void *, const void *));
+void *bsearch(const void *key, const void *base, size_t nmemb, size_t size, int (*compar)(const void *, const void *));
+void abort(void);
+int putenv(char *string);
+char *getenv(const char *name);
+int setenv(const char *name, const char *value, int overwrite);
+int unsetenv(const char *name);
+void exit(int status) __attribute__ ((noreturn));
+void _exit(int status) __attribute__ ((noreturn));
+void _Exit(int status) __attribute__ ((noreturn));
+unsigned long int strtoul(const char *nptr, char **endptr, int base);
+uint64_t strtoull(const char *nptr, char **endptr, int base);
+long int strtol(const char *nptr, char **endptr, int base);
+int64_t strtoll(const char *nptr, char **endptr, int base);
+double strtod(const char *nptr, char **endptr);
+float strtof(const char *nptr, char **endptr);
+long double strtold(const char *nptr, char **endptr);
+int atexit(void (*function)(void));
+int system(const char *command);
+int posix_memalign(void **memptr, size_t alignment, size_t size);
+char *mktemp(char *templ);
+int mkstemp(char *templ);
+
+
+
+int rand(void);
+void srand(unsigned int seed);
+
+long int random(void);
+void srandom(unsigned int seed);
+
+size_t __ctype_get_mb_cur_max();
+
+
+int mblen(const char *s, size_t n);
+int mbtowc(wchar_t *pwc, const char *s, size_t n);
+int wctomb(char *s, wchar_t wc);
+size_t mbstowcs(wchar_t *dest, const char *src, size_t n);
+size_t wcstombs(char *dest, const wchar_t *src, size_t n);
+
+typedef struct
+{
+    int quot;
+    int rem;
+} div_t;
+
+typedef struct
+{
+    int quot;
+    int rem;
+} ldiv_t;
+
+typedef struct
+{
+    int64_t quot;
+    int64_t rem;
+} lldiv_t;
+
+div_t div(int numerator, int denominator);
+ldiv_t ldiv(long numerator, long denominator);
+lldiv_t lldiv(int64_t numerator, int64_t denominator);
+# 112 "c:/marmalade/6.2/s3e/h/std/stdlib.h"
+}
+# 38 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.h" 2
+# 1 "c:/marmalade/6.2/s3e/h/std/string.h" 1
+# 17 "c:/marmalade/6.2/s3e/h/std/string.h"
+extern "C" {
+
+void *memcpy(void *dest, const void *src, size_t n);
+void *memset(void *s, int c, size_t n);
+int memcmp(const void *s1, const void *s2, size_t n);
+void *memmove(void *dest, const void *src, size_t n);
+void *memchr(const void *s, int c, size_t n);
+void *memrchr(const void *s, int c, size_t n);
+
+
+
+
+
+
+
+int strcmp(const char *s1, const char *s2);
+int strncmp(const char *s1, const char *s2, size_t n);
+char *strsep(char **stringp, const char *delim);
+char *strcpy(char *dest, const char *src);
+char *strncpy(char *dest, const char *src, size_t n);
+char *strchr(const char *s, int c);
+char *strstr(const char *haystack, const char *needle);
+char *strrchr(const char *s, int c);
+char *strdup(const char *s);
+char *strtok(char *str, const char *delim);
+char *strtok_r(char *str, const char *delim, char **saveptr);
+char *strcat(char *dest, const char *src);
+char *strncat(char *dest, const char *src, size_t n);
+size_t strlen(const char *s);
+size_t strnlen(const char *s, size_t n);
+int strcasecmp(const char *s1, const char *s2);
+int strncasecmp(const char *s1, const char *s2, size_t n);
+size_t strspn(const char *s, const char *accept);
+size_t strcspn(const char *s, const char *reject);
+char *strpbrk(const char *s, const char *accept);
+int strcoll(const char *s1, const char *s2);
+char *strerror(int errnum);
+size_t strxfrm(char *dest, const char *src, size_t n);
+
+int strerror_r(int errnum, char *buf, size_t buflen);
+
+
+
+
+
+size_t strlcpy(char* dest, const char* src, size_t len);
+size_t strlcat(char* dest, const char* src, size_t len);
+
+}
+# 39 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.h" 2
+# 1 "c:/marmalade/6.2/s3e/h/std/assert.h" 1
+# 17 "c:/marmalade/6.2/s3e/h/std/assert.h"
+extern "C" {
+# 43 "c:/marmalade/6.2/s3e/h/std/assert.h"
+}
+# 40 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.h" 2
+# 52 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.h"
+# 1 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinystr.h" 1
+# 67 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinystr.h"
+class TiXmlString
+{
+  public :
+
+   typedef size_t size_type;
+
+
+ static const size_type npos;
+
+
+
+ TiXmlString () : rep_(&nullrep_)
+ {
+ }
+
+
+ TiXmlString ( const TiXmlString & copy) : rep_(0)
+ {
+  init(copy.length());
+  memcpy(start(), copy.data(), length());
+ }
+
+
+ explicit TiXmlString ( const char * copy) : rep_(0)
+ {
+  init( static_cast<size_type>( strlen(copy) ));
+  memcpy(start(), copy, length());
+ }
+
+
+ explicit TiXmlString ( const char * str, size_type len) : rep_(0)
+ {
+  init(len);
+  memcpy(start(), str, len);
+ }
+
+
+ ~TiXmlString ()
+ {
+  quit();
+ }
+
+
+ TiXmlString& operator = (const char * copy)
+ {
+  return assign( copy, (size_type)strlen(copy));
+ }
+
+
+ TiXmlString& operator = (const TiXmlString & copy)
+ {
+  return assign(copy.start(), copy.length());
+ }
+
+
+
+ TiXmlString& operator += (const char * suffix)
+ {
+  return append(suffix, static_cast<size_type>( strlen(suffix) ));
+ }
+
+
+ TiXmlString& operator += (char single)
+ {
+  return append(&single, 1);
+ }
+
+
+ TiXmlString& operator += (const TiXmlString & suffix)
+ {
+  return append(suffix.data(), suffix.length());
+ }
+
+
+
+ const char * c_str () const { return rep_->str; }
+
+
+ const char * data () const { return rep_->str; }
+
+
+ size_type length () const { return rep_->size; }
+
+
+ size_type size () const { return rep_->size; }
+
+
+ bool empty () const { return rep_->size == 0; }
+
+
+ size_type capacity () const { return rep_->capacity; }
+
+
+
+ const char& at (size_type index) const
+ {
+  ((void)0);
+  return rep_->str[ index ];
+ }
+
+
+ char& operator [] (size_type index) const
+ {
+  ((void)0);
+  return rep_->str[ index ];
+ }
+
+
+ size_type find (char lookup) const
+ {
+  return find(lookup, 0);
+ }
+
+
+ size_type find (char tofind, size_type offset) const
+ {
+  if (offset >= length()) return npos;
+
+  for (const char* p = c_str() + offset; *p != '\0'; ++p)
+  {
+     if (*p == tofind) return static_cast< size_type >( p - c_str() );
+  }
+  return npos;
+ }
+
+ void clear ()
+ {
+
+
+
+
+  quit();
+  init(0,0);
+ }
+
+
+
+
+ void reserve (size_type cap);
+
+ TiXmlString& assign (const char* str, size_type len);
+
+ TiXmlString& append (const char* str, size_type len);
+
+ void swap (TiXmlString& other)
+ {
+  Rep* r = rep_;
+  rep_ = other.rep_;
+  other.rep_ = r;
+ }
+
+  private:
+
+ void init(size_type sz) { init(sz, sz); }
+ void set_size(size_type sz) { rep_->str[ rep_->size = sz ] = '\0'; }
+ char* start() const { return rep_->str; }
+ char* finish() const { return rep_->str + rep_->size; }
+
+ struct Rep
+ {
+  size_type size, capacity;
+  char str[1];
+ };
+
+ void init(size_type sz, size_type cap)
+ {
+  if (cap)
+  {
+
+
+
+
+
+   const size_type bytesNeeded = sizeof(Rep) + cap;
+   const size_type intsNeeded = ( bytesNeeded + sizeof(int) - 1 ) / sizeof( int );
+   rep_ = reinterpret_cast<Rep*>( new int[ intsNeeded ] );
+
+   rep_->str[ rep_->size = sz ] = '\0';
+   rep_->capacity = cap;
+  }
+  else
+  {
+   rep_ = &nullrep_;
+  }
+ }
+
+ void quit()
+ {
+  if (rep_ != &nullrep_)
+  {
+
+
+   delete [] ( reinterpret_cast<int*>( rep_ ) );
+  }
+ }
+
+ Rep * rep_;
+ static Rep nullrep_;
+
+} ;
+
+
+inline bool operator == (const TiXmlString & a, const TiXmlString & b)
+{
+ return ( a.length() == b.length() )
+        && ( strcmp(a.c_str(), b.c_str()) == 0 );
+}
+inline bool operator < (const TiXmlString & a, const TiXmlString & b)
+{
+ return strcmp(a.c_str(), b.c_str()) < 0;
+}
+
+inline bool operator != (const TiXmlString & a, const TiXmlString & b) { return !(a == b); }
+inline bool operator > (const TiXmlString & a, const TiXmlString & b) { return b < a; }
+inline bool operator <= (const TiXmlString & a, const TiXmlString & b) { return !(b < a); }
+inline bool operator >= (const TiXmlString & a, const TiXmlString & b) { return !(a < b); }
+
+inline bool operator == (const TiXmlString & a, const char* b) { return strcmp(a.c_str(), b) == 0; }
+inline bool operator == (const char* a, const TiXmlString & b) { return b == a; }
+inline bool operator != (const TiXmlString & a, const char* b) { return !(a == b); }
+inline bool operator != (const char* a, const TiXmlString & b) { return !(b == a); }
+
+TiXmlString operator + (const TiXmlString & a, const TiXmlString & b);
+TiXmlString operator + (const TiXmlString & a, const char* b);
+TiXmlString operator + (const char* a, const TiXmlString & b);
+
+
+
+
+
+
+class TiXmlOutStream : public TiXmlString
+{
+public :
+
+
+ TiXmlOutStream & operator << (const TiXmlString & in)
+ {
+  *this += in;
+  return *this;
+ }
+
+
+ TiXmlOutStream & operator << (const char * in)
+ {
+  *this += in;
+  return *this;
+ }
+
+} ;
+# 53 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.h" 2
+# 90 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.h"
+class TiXmlDocument;
+class TiXmlElement;
+class TiXmlComment;
+class TiXmlUnknown;
+class TiXmlAttribute;
+class TiXmlText;
+class TiXmlDeclaration;
+class TiXmlParsingData;
+
+const int TIXML_MAJOR_VERSION = 2;
+const int TIXML_MINOR_VERSION = 5;
+const int TIXML_PATCH_VERSION = 3;
+
+
+
+
+struct TiXmlCursor
+{
+ TiXmlCursor() { Clear(); }
+ void Clear() { row = col = -1; }
+
+ int row;
+ int col;
+};
+# 134 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.h"
+class TiXmlVisitor
+{
+public:
+ virtual ~TiXmlVisitor() {}
+
+
+ virtual bool VisitEnter( const TiXmlDocument& ) { return true; }
+
+ virtual bool VisitExit( const TiXmlDocument& ) { return true; }
+
+
+ virtual bool VisitEnter( const TiXmlElement& , const TiXmlAttribute* ) { return true; }
+
+ virtual bool VisitExit( const TiXmlElement& ) { return true; }
+
+
+ virtual bool Visit( const TiXmlDeclaration& ) { return true; }
+
+ virtual bool Visit( const TiXmlText& ) { return true; }
+
+ virtual bool Visit( const TiXmlComment& ) { return true; }
+
+ virtual bool Visit( const TiXmlUnknown& ) { return true; }
+};
+
+
+enum
+{
+ TIXML_SUCCESS,
+ TIXML_NO_ATTRIBUTE,
+ TIXML_WRONG_TYPE
+};
+
+
+
+enum TiXmlEncoding
+{
+ TIXML_ENCODING_UNKNOWN,
+ TIXML_ENCODING_UTF8,
+ TIXML_ENCODING_LEGACY
+};
+
+const TiXmlEncoding TIXML_DEFAULT_ENCODING = TIXML_ENCODING_UNKNOWN;
+# 200 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.h"
+class TiXmlBase
+{
+ friend class TiXmlNode;
+ friend class TiXmlElement;
+ friend class TiXmlDocument;
+
+public:
+ TiXmlBase() : userData(0) {}
+ virtual ~TiXmlBase() {}
+# 219 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.h"
+ virtual void Print( FILE* cfile, int depth ) const = 0;
+
+
+
+
+
+
+
+ static void SetCondenseWhiteSpace( bool condense ) { condenseWhiteSpace = condense; }
+
+
+ static bool IsWhiteSpaceCondensed() { return condenseWhiteSpace; }
+# 250 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.h"
+ int Row() const { return location.row + 1; }
+ int Column() const { return location.col + 1; }
+
+ void SetUserData( void* user ) { userData = user; }
+ void* GetUserData() { return userData; }
+ const void* GetUserData() const { return userData; }
+
+
+
+ static const int utf8ByteTable[256];
+
+ virtual const char* Parse( const char* p,
+        TiXmlParsingData* data,
+        TiXmlEncoding encoding ) = 0;
+
+
+
+
+ static void EncodeString( const TiXmlString& str, TiXmlString* out );
+
+ enum
+ {
+  TIXML_NO_ERROR = 0,
+  TIXML_ERROR,
+  TIXML_ERROR_OPENING_FILE,
+  TIXML_ERROR_OUT_OF_MEMORY,
+  TIXML_ERROR_PARSING_ELEMENT,
+  TIXML_ERROR_FAILED_TO_READ_ELEMENT_NAME,
+  TIXML_ERROR_READING_ELEMENT_VALUE,
+  TIXML_ERROR_READING_ATTRIBUTES,
+  TIXML_ERROR_PARSING_EMPTY,
+  TIXML_ERROR_READING_END_TAG,
+  TIXML_ERROR_PARSING_UNKNOWN,
+  TIXML_ERROR_PARSING_COMMENT,
+  TIXML_ERROR_PARSING_DECLARATION,
+  TIXML_ERROR_DOCUMENT_EMPTY,
+  TIXML_ERROR_EMBEDDED_NULL,
+  TIXML_ERROR_PARSING_CDATA,
+  TIXML_ERROR_DOCUMENT_TOP_ONLY,
+
+  TIXML_ERROR_STRING_COUNT
+ };
+
+protected:
+
+ static const char* SkipWhiteSpace( const char*, TiXmlEncoding encoding );
+ inline static bool IsWhiteSpace( char c )
+ {
+  return ( isspace( (unsigned char) c ) || c == '\n' || c == '\r' );
+ }
+ inline static bool IsWhiteSpace( int c )
+ {
+  if ( c < 256 )
+   return IsWhiteSpace( (char) c );
+  return false;
+ }
+# 316 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.h"
+ static const char* ReadName( const char* p, TiXmlString* name, TiXmlEncoding encoding );
+
+
+
+
+ static const char* ReadText( const char* in,
+         TiXmlString* text,
+         bool ignoreWhiteSpace,
+         const char* endTag,
+         bool ignoreCase,
+         TiXmlEncoding encoding );
+
+
+ static const char* GetEntity( const char* in, char* value, int* length, TiXmlEncoding encoding );
+
+
+
+ inline static const char* GetChar( const char* p, char* _value, int* length, TiXmlEncoding encoding )
+ {
+  ((void)0);
+  if ( encoding == TIXML_ENCODING_UTF8 )
+  {
+   *length = utf8ByteTable[ *((const unsigned char*)p) ];
+   ((void)0);
+  }
+  else
+  {
+   *length = 1;
+  }
+
+  if ( *length == 1 )
+  {
+   if ( *p == '&' )
+    return GetEntity( p, _value, length, encoding );
+   *_value = *p;
+   return p+1;
+  }
+  else if ( *length )
+  {
+
+
+   for( int i=0; p[i] && i<*length; ++i ) {
+    _value[i] = p[i];
+   }
+   return p + (*length);
+  }
+  else
+  {
+
+   return 0;
+  }
+ }
+
+
+
+
+ static bool StringEqual( const char* p,
+        const char* endTag,
+        bool ignoreCase,
+        TiXmlEncoding encoding );
+
+ static const char* errorString[ TIXML_ERROR_STRING_COUNT ];
+
+ TiXmlCursor location;
+
+
+ void* userData;
+
+
+
+ static int IsAlpha( unsigned char anyByte, TiXmlEncoding encoding );
+ static int IsAlphaNum( unsigned char anyByte, TiXmlEncoding encoding );
+ inline static int ToLower( int v, TiXmlEncoding encoding )
+ {
+  if ( encoding == TIXML_ENCODING_UTF8 )
+  {
+   if ( v < 128 ) return tolower( v );
+   return v;
+  }
+  else
+  {
+   return tolower( v );
+  }
+ }
+ static void ConvertUTF32ToUTF8( unsigned long input, char* output, int* length );
+
+private:
+ TiXmlBase( const TiXmlBase& );
+ void operator=( const TiXmlBase& base );
+
+ struct Entity
+ {
+  const char* str;
+  unsigned int strLength;
+  char chr;
+ };
+ enum
+ {
+  NUM_ENTITY = 5,
+  MAX_ENTITY_LENGTH = 6
+
+ };
+ static Entity entity[ NUM_ENTITY ];
+ static bool condenseWhiteSpace;
+};
+# 429 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.h"
+class TiXmlNode : public TiXmlBase
+{
+ friend class TiXmlDocument;
+ friend class TiXmlElement;
+
+public:
+# 468 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.h"
+ enum NodeType
+ {
+  DOCUMENT,
+  ELEMENT,
+  COMMENT,
+  UNKNOWN,
+  TEXT,
+  DECLARATION,
+  TYPECOUNT
+ };
+
+ virtual ~TiXmlNode();
+# 493 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.h"
+ const char *Value() const { return value.c_str (); }
+# 503 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.h"
+ const TiXmlString& ValueTStr() const { return value; }
+# 514 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.h"
+ void SetValue(const char * _value) { value = _value;}
+
+
+
+
+
+
+
+ void Clear();
+
+
+ TiXmlNode* Parent() { return parent; }
+ const TiXmlNode* Parent() const { return parent; }
+
+ const TiXmlNode* FirstChild() const { return firstChild; }
+ TiXmlNode* FirstChild() { return firstChild; }
+ const TiXmlNode* FirstChild( const char * value ) const;
+
+ TiXmlNode* FirstChild( const char * _value ) {
+
+
+  return const_cast< TiXmlNode* > ((const_cast< const TiXmlNode* >(this))->FirstChild( _value ));
+ }
+ const TiXmlNode* LastChild() const { return lastChild; }
+ TiXmlNode* LastChild() { return lastChild; }
+
+ const TiXmlNode* LastChild( const char * value ) const;
+ TiXmlNode* LastChild( const char * _value ) {
+  return const_cast< TiXmlNode* > ((const_cast< const TiXmlNode* >(this))->LastChild( _value ));
+ }
+# 568 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.h"
+ const TiXmlNode* IterateChildren( const TiXmlNode* previous ) const;
+ TiXmlNode* IterateChildren( const TiXmlNode* previous ) {
+  return const_cast< TiXmlNode* >( (const_cast< const TiXmlNode* >(this))->IterateChildren( previous ) );
+ }
+
+
+ const TiXmlNode* IterateChildren( const char * value, const TiXmlNode* previous ) const;
+ TiXmlNode* IterateChildren( const char * _value, const TiXmlNode* previous ) {
+  return const_cast< TiXmlNode* >( (const_cast< const TiXmlNode* >(this))->IterateChildren( _value, previous ) );
+ }
+# 587 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.h"
+ TiXmlNode* InsertEndChild( const TiXmlNode& addThis );
+# 599 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.h"
+ TiXmlNode* LinkEndChild( TiXmlNode* addThis );
+
+
+
+
+ TiXmlNode* InsertBeforeChild( TiXmlNode* beforeThis, const TiXmlNode& addThis );
+
+
+
+
+ TiXmlNode* InsertAfterChild( TiXmlNode* afterThis, const TiXmlNode& addThis );
+
+
+
+
+ TiXmlNode* ReplaceChild( TiXmlNode* replaceThis, const TiXmlNode& withThis );
+
+
+ bool RemoveChild( TiXmlNode* removeThis );
+
+
+ const TiXmlNode* PreviousSibling() const { return prev; }
+ TiXmlNode* PreviousSibling() { return prev; }
+
+
+ const TiXmlNode* PreviousSibling( const char * ) const;
+ TiXmlNode* PreviousSibling( const char *_prev ) {
+  return const_cast< TiXmlNode* >( (const_cast< const TiXmlNode* >(this))->PreviousSibling( _prev ) );
+ }
+# 637 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.h"
+ const TiXmlNode* NextSibling() const { return next; }
+ TiXmlNode* NextSibling() { return next; }
+
+
+ const TiXmlNode* NextSibling( const char * ) const;
+ TiXmlNode* NextSibling( const char* _next ) {
+  return const_cast< TiXmlNode* >( (const_cast< const TiXmlNode* >(this))->NextSibling( _next ) );
+ }
+
+
+
+
+
+ const TiXmlElement* NextSiblingElement() const;
+ TiXmlElement* NextSiblingElement() {
+  return const_cast< TiXmlElement* >( (const_cast< const TiXmlNode* >(this))->NextSiblingElement() );
+ }
+
+
+
+
+
+ const TiXmlElement* NextSiblingElement( const char * ) const;
+ TiXmlElement* NextSiblingElement( const char *_next ) {
+  return const_cast< TiXmlElement* >( (const_cast< const TiXmlNode* >(this))->NextSiblingElement( _next ) );
+ }
+
+
+
+
+
+
+
+ const TiXmlElement* FirstChildElement() const;
+ TiXmlElement* FirstChildElement() {
+  return const_cast< TiXmlElement* >( (const_cast< const TiXmlNode* >(this))->FirstChildElement() );
+ }
+
+
+ const TiXmlElement* FirstChildElement( const char * _value ) const;
+ TiXmlElement* FirstChildElement( const char * _value ) {
+  return const_cast< TiXmlElement* >( (const_cast< const TiXmlNode* >(this))->FirstChildElement( _value ) );
+ }
+# 690 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.h"
+ int Type() const { return type; }
+
+
+
+
+ const TiXmlDocument* GetDocument() const;
+ TiXmlDocument* GetDocument() {
+  return const_cast< TiXmlDocument* >( (const_cast< const TiXmlNode* >(this))->GetDocument() );
+ }
+
+
+ bool NoChildren() const { return !firstChild; }
+
+ virtual const TiXmlDocument* ToDocument() const { return 0; }
+ virtual const TiXmlElement* ToElement() const { return 0; }
+ virtual const TiXmlComment* ToComment() const { return 0; }
+ virtual const TiXmlUnknown* ToUnknown() const { return 0; }
+ virtual const TiXmlText* ToText() const { return 0; }
+ virtual const TiXmlDeclaration* ToDeclaration() const { return 0; }
+
+ virtual TiXmlDocument* ToDocument() { return 0; }
+ virtual TiXmlElement* ToElement() { return 0; }
+ virtual TiXmlComment* ToComment() { return 0; }
+ virtual TiXmlUnknown* ToUnknown() { return 0; }
+ virtual TiXmlText* ToText() { return 0; }
+ virtual TiXmlDeclaration* ToDeclaration() { return 0; }
+
+
+
+
+ virtual TiXmlNode* Clone() const = 0;
+# 744 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.h"
+ virtual bool Accept( TiXmlVisitor* visitor ) const = 0;
+
+protected:
+ TiXmlNode( NodeType _type );
+
+
+
+ void CopyTo( TiXmlNode* target ) const;
+
+
+
+
+
+
+
+ TiXmlNode* Identify( const char* start, TiXmlEncoding encoding );
+
+ TiXmlNode* parent;
+ NodeType type;
+
+ TiXmlNode* firstChild;
+ TiXmlNode* lastChild;
+
+ TiXmlString value;
+
+ TiXmlNode* prev;
+ TiXmlNode* next;
+
+private:
+ TiXmlNode( const TiXmlNode& );
+ void operator=( const TiXmlNode& base );
+};
+# 785 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.h"
+class TiXmlAttribute : public TiXmlBase
+{
+ friend class TiXmlAttributeSet;
+
+public:
+
+ TiXmlAttribute() : TiXmlBase()
+ {
+  document = 0;
+  prev = next = 0;
+ }
+# 809 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.h"
+ TiXmlAttribute( const char * _name, const char * _value )
+ {
+  name = _name;
+  value = _value;
+  document = 0;
+  prev = next = 0;
+ }
+
+ const char* Name() const { return name.c_str(); }
+ const char* Value() const { return value.c_str(); }
+
+
+
+ int IntValue() const;
+ double DoubleValue() const;
+
+
+ const TiXmlString& NameTStr() const { return name; }
+# 837 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.h"
+ int QueryIntValue( int* _value ) const;
+
+ int QueryDoubleValue( double* _value ) const;
+
+ void SetName( const char* _name ) { name = _name; }
+ void SetValue( const char* _value ) { value = _value; }
+
+ void SetIntValue( int _value );
+ void SetDoubleValue( double _value );
+# 855 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.h"
+ const TiXmlAttribute* Next() const;
+ TiXmlAttribute* Next() {
+  return const_cast< TiXmlAttribute* >( (const_cast< const TiXmlAttribute* >(this))->Next() );
+ }
+
+
+ const TiXmlAttribute* Previous() const;
+ TiXmlAttribute* Previous() {
+  return const_cast< TiXmlAttribute* >( (const_cast< const TiXmlAttribute* >(this))->Previous() );
+ }
+
+ bool operator==( const TiXmlAttribute& rhs ) const { return rhs.name == name; }
+ bool operator<( const TiXmlAttribute& rhs ) const { return name < rhs.name; }
+ bool operator>( const TiXmlAttribute& rhs ) const { return name > rhs.name; }
+
+
+
+
+ virtual const char* Parse( const char* p, TiXmlParsingData* data, TiXmlEncoding encoding );
+
+
+ virtual void Print( FILE* cfile, int depth ) const {
+  Print( cfile, depth, 0 );
+ }
+ void Print( FILE* cfile, int depth, TiXmlString* str ) const;
+
+
+
+ void SetDocument( TiXmlDocument* doc ) { document = doc; }
+
+private:
+ TiXmlAttribute( const TiXmlAttribute& );
+ void operator=( const TiXmlAttribute& base );
+
+ TiXmlDocument* document;
+ TiXmlString name;
+ TiXmlString value;
+ TiXmlAttribute* prev;
+ TiXmlAttribute* next;
+};
+# 909 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.h"
+class TiXmlAttributeSet
+{
+public:
+ TiXmlAttributeSet();
+ ~TiXmlAttributeSet();
+
+ void Add( TiXmlAttribute* attribute );
+ void Remove( TiXmlAttribute* attribute );
+
+ const TiXmlAttribute* First() const { return ( sentinel.next == &sentinel ) ? 0 : sentinel.next; }
+ TiXmlAttribute* First() { return ( sentinel.next == &sentinel ) ? 0 : sentinel.next; }
+ const TiXmlAttribute* Last() const { return ( sentinel.prev == &sentinel ) ? 0 : sentinel.prev; }
+ TiXmlAttribute* Last() { return ( sentinel.prev == &sentinel ) ? 0 : sentinel.prev; }
+
+ const TiXmlAttribute* Find( const char* _name ) const;
+ TiXmlAttribute* Find( const char* _name ) {
+  return const_cast< TiXmlAttribute* >( (const_cast< const TiXmlAttributeSet* >(this))->Find( _name ) );
+ }
+# 935 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.h"
+private:
+
+
+ TiXmlAttributeSet( const TiXmlAttributeSet& );
+ void operator=( const TiXmlAttributeSet& );
+
+ TiXmlAttribute sentinel;
+};
+
+
+
+
+
+
+class TiXmlElement : public TiXmlNode
+{
+public:
+
+ TiXmlElement (const char * in_value);
+
+
+
+
+
+
+ TiXmlElement( const TiXmlElement& );
+
+ void operator=( const TiXmlElement& base );
+
+ virtual ~TiXmlElement();
+
+
+
+
+ const char* Attribute( const char* name ) const;
+
+
+
+
+
+
+
+ const char* Attribute( const char* name, int* i ) const;
+
+
+
+
+
+
+
+ const char* Attribute( const char* name, double* d ) const;
+# 994 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.h"
+ int QueryIntAttribute( const char* name, int* _value ) const;
+
+ int QueryDoubleAttribute( const char* name, double* _value ) const;
+
+ int QueryFloatAttribute( const char* name, float* _value ) const {
+  double d;
+  int result = QueryDoubleAttribute( name, &d );
+  if ( result == TIXML_SUCCESS ) {
+   *_value = (float)d;
+  }
+  return result;
+ }
+# 1048 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.h"
+ void SetAttribute( const char* name, const char * _value );
+# 1066 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.h"
+ void SetAttribute( const char * name, int value );
+
+
+
+
+ void SetDoubleAttribute( const char * name, double value );
+
+
+
+ void RemoveAttribute( const char * name );
+
+
+
+
+ const TiXmlAttribute* FirstAttribute() const { return attributeSet.First(); }
+ TiXmlAttribute* FirstAttribute() { return attributeSet.First(); }
+ const TiXmlAttribute* LastAttribute() const { return attributeSet.Last(); }
+ TiXmlAttribute* LastAttribute() { return attributeSet.Last(); }
+# 1117 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.h"
+ const char* GetText() const;
+
+
+ virtual TiXmlNode* Clone() const;
+
+ virtual void Print( FILE* cfile, int depth ) const;
+
+
+
+
+ virtual const char* Parse( const char* p, TiXmlParsingData* data, TiXmlEncoding encoding );
+
+ virtual const TiXmlElement* ToElement() const { return this; }
+ virtual TiXmlElement* ToElement() { return this; }
+
+
+
+ virtual bool Accept( TiXmlVisitor* visitor ) const;
+
+protected:
+
+ void CopyTo( TiXmlElement* target ) const;
+ void ClearThis();
+# 1149 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.h"
+ const char* ReadValue( const char* in, TiXmlParsingData* prevData, TiXmlEncoding encoding );
+
+private:
+
+ TiXmlAttributeSet attributeSet;
+};
+
+
+
+
+class TiXmlComment : public TiXmlNode
+{
+public:
+
+ TiXmlComment() : TiXmlNode( TiXmlNode::COMMENT ) {}
+
+ TiXmlComment( const char* _value ) : TiXmlNode( TiXmlNode::COMMENT ) {
+  SetValue( _value );
+ }
+ TiXmlComment( const TiXmlComment& );
+ void operator=( const TiXmlComment& base );
+
+ virtual ~TiXmlComment() {}
+
+
+ virtual TiXmlNode* Clone() const;
+
+ virtual void Print( FILE* cfile, int depth ) const;
+
+
+
+
+ virtual const char* Parse( const char* p, TiXmlParsingData* data, TiXmlEncoding encoding );
+
+ virtual const TiXmlComment* ToComment() const { return this; }
+ virtual TiXmlComment* ToComment() { return this; }
+
+
+
+ virtual bool Accept( TiXmlVisitor* visitor ) const;
+
+protected:
+ void CopyTo( TiXmlComment* target ) const;
+
+
+
+
+
+
+
+private:
+
+};
+
+
+
+
+
+
+
+class TiXmlText : public TiXmlNode
+{
+ friend class TiXmlElement;
+public:
+
+
+
+
+ TiXmlText (const char * initValue ) : TiXmlNode (TiXmlNode::TEXT)
+ {
+  SetValue( initValue );
+  cdata = false;
+ }
+ virtual ~TiXmlText() {}
+# 1233 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.h"
+ TiXmlText( const TiXmlText& copy ) : TiXmlNode( TiXmlNode::TEXT ) { copy.CopyTo( this ); }
+ void operator=( const TiXmlText& base ) { base.CopyTo( this ); }
+
+
+ virtual void Print( FILE* cfile, int depth ) const;
+
+
+ bool CDATA() const { return cdata; }
+
+ void SetCDATA( bool _cdata ) { cdata = _cdata; }
+
+ virtual const char* Parse( const char* p, TiXmlParsingData* data, TiXmlEncoding encoding );
+
+ virtual const TiXmlText* ToText() const { return this; }
+ virtual TiXmlText* ToText() { return this; }
+
+
+
+ virtual bool Accept( TiXmlVisitor* content ) const;
+
+protected :
+
+ virtual TiXmlNode* Clone() const;
+ void CopyTo( TiXmlText* target ) const;
+
+ bool Blank() const;
+
+
+
+
+
+private:
+ bool cdata;
+};
+# 1282 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.h"
+class TiXmlDeclaration : public TiXmlNode
+{
+public:
+
+ TiXmlDeclaration() : TiXmlNode( TiXmlNode::DECLARATION ) {}
+# 1296 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.h"
+ TiXmlDeclaration( const char* _version,
+      const char* _encoding,
+      const char* _standalone );
+
+ TiXmlDeclaration( const TiXmlDeclaration& copy );
+ void operator=( const TiXmlDeclaration& copy );
+
+ virtual ~TiXmlDeclaration() {}
+
+
+ const char *Version() const { return version.c_str (); }
+
+ const char *Encoding() const { return encoding.c_str (); }
+
+ const char *Standalone() const { return standalone.c_str (); }
+
+
+ virtual TiXmlNode* Clone() const;
+
+ virtual void Print( FILE* cfile, int depth, TiXmlString* str ) const;
+ virtual void Print( FILE* cfile, int depth ) const {
+  Print( cfile, depth, 0 );
+ }
+
+ virtual const char* Parse( const char* p, TiXmlParsingData* data, TiXmlEncoding encoding );
+
+ virtual const TiXmlDeclaration* ToDeclaration() const { return this; }
+ virtual TiXmlDeclaration* ToDeclaration() { return this; }
+
+
+
+ virtual bool Accept( TiXmlVisitor* visitor ) const;
+
+protected:
+ void CopyTo( TiXmlDeclaration* target ) const;
+
+
+
+
+
+private:
+
+ TiXmlString version;
+ TiXmlString encoding;
+ TiXmlString standalone;
+};
+# 1351 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.h"
+class TiXmlUnknown : public TiXmlNode
+{
+public:
+ TiXmlUnknown() : TiXmlNode( TiXmlNode::UNKNOWN ) {}
+ virtual ~TiXmlUnknown() {}
+
+ TiXmlUnknown( const TiXmlUnknown& copy ) : TiXmlNode( TiXmlNode::UNKNOWN ) { copy.CopyTo( this ); }
+ void operator=( const TiXmlUnknown& copy ) { copy.CopyTo( this ); }
+
+
+ virtual TiXmlNode* Clone() const;
+
+ virtual void Print( FILE* cfile, int depth ) const;
+
+ virtual const char* Parse( const char* p, TiXmlParsingData* data, TiXmlEncoding encoding );
+
+ virtual const TiXmlUnknown* ToUnknown() const { return this; }
+ virtual TiXmlUnknown* ToUnknown() { return this; }
+
+
+
+ virtual bool Accept( TiXmlVisitor* content ) const;
+
+protected:
+ void CopyTo( TiXmlUnknown* target ) const;
+
+
+
+
+
+private:
+
+};
+
+
+
+
+
+
+class TiXmlDocument : public TiXmlNode
+{
+public:
+
+ TiXmlDocument();
+
+ TiXmlDocument( const char * documentName );
+
+
+
+
+
+
+ TiXmlDocument( const TiXmlDocument& copy );
+ void operator=( const TiXmlDocument& copy );
+
+ virtual ~TiXmlDocument() {}
+
+
+
+
+
+ bool LoadFile( TiXmlEncoding encoding = TIXML_DEFAULT_ENCODING );
+
+ bool SaveFile() const;
+
+ bool LoadFile( const char * filename, TiXmlEncoding encoding = TIXML_DEFAULT_ENCODING );
+
+ bool SaveFile( const char * filename ) const;
+
+
+
+
+
+ bool LoadFile( FILE*, TiXmlEncoding encoding = TIXML_DEFAULT_ENCODING );
+
+ bool SaveFile( FILE* ) const;
+# 1447 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.h"
+ virtual const char* Parse( const char* p, TiXmlParsingData* data = 0, TiXmlEncoding encoding = TIXML_DEFAULT_ENCODING );
+
+
+
+
+
+ const TiXmlElement* RootElement() const { return FirstChildElement(); }
+ TiXmlElement* RootElement() { return FirstChildElement(); }
+
+
+
+
+
+
+ bool Error() const { return error; }
+
+
+ const char * ErrorDesc() const { return errorDesc.c_str (); }
+
+
+
+
+ int ErrorId() const { return errorId; }
+# 1478 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.h"
+ int ErrorRow() const { return errorLocation.row+1; }
+ int ErrorCol() const { return errorLocation.col+1; }
+# 1505 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.h"
+ void SetTabSize( int _tabsize ) { tabsize = _tabsize; }
+
+ int TabSize() const { return tabsize; }
+
+
+
+
+ void ClearError() { error = false;
+            errorId = 0;
+            errorDesc = "";
+            errorLocation.row = errorLocation.col = 0;
+
+           }
+
+
+ void Print() const { Print( (__aeabi_stdout), 0 ); }
+# 1529 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.h"
+ virtual void Print( FILE* cfile, int depth = 0 ) const;
+
+ void SetError( int err, const char* errorLocation, TiXmlParsingData* prevData, TiXmlEncoding encoding );
+
+ virtual const TiXmlDocument* ToDocument() const { return this; }
+ virtual TiXmlDocument* ToDocument() { return this; }
+
+
+
+ virtual bool Accept( TiXmlVisitor* content ) const;
+
+protected :
+
+ virtual TiXmlNode* Clone() const;
+
+
+
+
+private:
+ void CopyTo( TiXmlDocument* target ) const;
+
+ bool error;
+ int errorId;
+ TiXmlString errorDesc;
+ int tabsize;
+ TiXmlCursor errorLocation;
+ bool useMicrosoftBOM;
+};
+# 1639 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.h"
+class TiXmlHandle
+{
+public:
+
+ TiXmlHandle( TiXmlNode* _node ) { this->node = _node; }
+
+ TiXmlHandle( const TiXmlHandle& ref ) { this->node = ref.node; }
+ TiXmlHandle operator=( const TiXmlHandle& ref ) { this->node = ref.node; return *this; }
+
+
+ TiXmlHandle FirstChild() const;
+
+ TiXmlHandle FirstChild( const char * value ) const;
+
+ TiXmlHandle FirstChildElement() const;
+
+ TiXmlHandle FirstChildElement( const char * value ) const;
+
+
+
+
+ TiXmlHandle Child( const char* value, int index ) const;
+
+
+
+ TiXmlHandle Child( int index ) const;
+
+
+
+
+ TiXmlHandle ChildElement( const char* value, int index ) const;
+
+
+
+
+ TiXmlHandle ChildElement( int index ) const;
+# 1686 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.h"
+ TiXmlNode* ToNode() const { return node; }
+
+
+ TiXmlElement* ToElement() const { return ( ( node && node->ToElement() ) ? node->ToElement() : 0 ); }
+
+
+ TiXmlText* ToText() const { return ( ( node && node->ToText() ) ? node->ToText() : 0 ); }
+
+
+ TiXmlUnknown* ToUnknown() const { return ( ( node && node->ToUnknown() ) ? node->ToUnknown() : 0 ); }
+
+
+
+
+ TiXmlNode* Node() const { return ToNode(); }
+
+
+
+ TiXmlElement* Element() const { return ToElement(); }
+
+
+
+ TiXmlText* Text() const { return ToText(); }
+
+
+
+ TiXmlUnknown* Unknown() const { return ToUnknown(); }
+
+private:
+ TiXmlNode* node;
+};
+# 1738 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.h"
+class TiXmlPrinter : public TiXmlVisitor
+{
+public:
+ TiXmlPrinter() : depth( 0 ), simpleTextPrint( false ),
+      buffer(), indent( "    " ), lineBreak( "\n" ) {}
+
+ virtual bool VisitEnter( const TiXmlDocument& doc );
+ virtual bool VisitExit( const TiXmlDocument& doc );
+
+ virtual bool VisitEnter( const TiXmlElement& element, const TiXmlAttribute* firstAttribute );
+ virtual bool VisitExit( const TiXmlElement& element );
+
+ virtual bool Visit( const TiXmlDeclaration& declaration );
+ virtual bool Visit( const TiXmlText& text );
+ virtual bool Visit( const TiXmlComment& comment );
+ virtual bool Visit( const TiXmlUnknown& unknown );
+
+
+
+
+ void SetIndent( const char* _indent ) { indent = _indent ? _indent : "" ; }
+
+ const char* Indent() { return indent.c_str(); }
+
+
+
+
+ void SetLineBreak( const char* _lineBreak ) { lineBreak = _lineBreak ? _lineBreak : ""; }
+
+ const char* LineBreak() { return lineBreak.c_str(); }
+
+
+
+
+ void SetStreamPrinting() { indent = "";
+               lineBreak = "";
+             }
+
+ const char* CStr() { return buffer.c_str(); }
+
+ size_t Size() { return buffer.size(); }
+
+
+
+
+
+
+private:
+ void DoIndent() {
+  for( int i=0; i<depth; ++i )
+   buffer += indent;
+ }
+ void DoLineBreak() {
+  buffer += lineBreak;
+ }
+
+ int depth;
+ bool simpleTextPrint;
+ TiXmlString buffer;
+ TiXmlString indent;
+ TiXmlString lineBreak;
+};
+# 33 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.cpp" 2
+
+
+bool TiXmlBase::condenseWhiteSpace = true;
+
+
+FILE* TiXmlFOpen( const char* filename, const char* mode )
+{
+
+
+
+
+
+
+
+  return fopen( filename, mode );
+
+}
+
+void TiXmlBase::EncodeString( const TiXmlString& str, TiXmlString* outString )
+{
+ int i=0;
+
+ while( i<(int)str.length() )
+ {
+  unsigned char c = (unsigned char) str[i];
+
+  if ( c == '&'
+       && i < ( (int)str.length() - 2 )
+    && str[i+1] == '#'
+    && str[i+2] == 'x' )
+  {
+# 74 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.cpp"
+   while ( i<(int)str.length()-1 )
+   {
+    outString->append( str.c_str() + i, 1 );
+    ++i;
+    if ( str[i] == ';' )
+     break;
+   }
+  }
+  else if ( c == '&' )
+  {
+   outString->append( entity[0].str, entity[0].strLength );
+   ++i;
+  }
+  else if ( c == '<' )
+  {
+   outString->append( entity[1].str, entity[1].strLength );
+   ++i;
+  }
+  else if ( c == '>' )
+  {
+   outString->append( entity[2].str, entity[2].strLength );
+   ++i;
+  }
+  else if ( c == '\"' )
+  {
+   outString->append( entity[3].str, entity[3].strLength );
+   ++i;
+  }
+  else if ( c == '\'' )
+  {
+   outString->append( entity[4].str, entity[4].strLength );
+   ++i;
+  }
+  else if ( c < 32 )
+  {
+
+
+   char buf[ 32 ];
+
+
+
+
+    sprintf( buf, "&#x%02X;", (unsigned) ( c & 0xff ) );
+
+
+
+
+   outString->append( buf, (int)strlen( buf ) );
+   ++i;
+  }
+  else
+  {
+
+
+   *outString += (char) c;
+   ++i;
+  }
+ }
+}
+
+
+TiXmlNode::TiXmlNode( NodeType _type ) : TiXmlBase()
+{
+ parent = 0;
+ type = _type;
+ firstChild = 0;
+ lastChild = 0;
+ prev = 0;
+ next = 0;
+}
+
+
+TiXmlNode::~TiXmlNode()
+{
+ TiXmlNode* node = firstChild;
+ TiXmlNode* temp = 0;
+
+ while ( node )
+ {
+  temp = node;
+  node = node->next;
+  delete temp;
+ }
+}
+
+
+void TiXmlNode::CopyTo( TiXmlNode* target ) const
+{
+ target->SetValue (value.c_str() );
+ target->userData = userData;
+}
+
+
+void TiXmlNode::Clear()
+{
+ TiXmlNode* node = firstChild;
+ TiXmlNode* temp = 0;
+
+ while ( node )
+ {
+  temp = node;
+  node = node->next;
+  delete temp;
+ }
+
+ firstChild = 0;
+ lastChild = 0;
+}
+
+
+TiXmlNode* TiXmlNode::LinkEndChild( TiXmlNode* node )
+{
+ ((void)0);
+ ((void)0);
+
+ if ( node->Type() == TiXmlNode::DOCUMENT )
+ {
+  delete node;
+  if ( GetDocument() ) GetDocument()->SetError( TIXML_ERROR_DOCUMENT_TOP_ONLY, 0, 0, TIXML_ENCODING_UNKNOWN );
+  return 0;
+ }
+
+ node->parent = this;
+
+ node->prev = lastChild;
+ node->next = 0;
+
+ if ( lastChild )
+  lastChild->next = node;
+ else
+  firstChild = node;
+
+ lastChild = node;
+ return node;
+}
+
+
+TiXmlNode* TiXmlNode::InsertEndChild( const TiXmlNode& addThis )
+{
+ if ( addThis.Type() == TiXmlNode::DOCUMENT )
+ {
+  if ( GetDocument() ) GetDocument()->SetError( TIXML_ERROR_DOCUMENT_TOP_ONLY, 0, 0, TIXML_ENCODING_UNKNOWN );
+  return 0;
+ }
+ TiXmlNode* node = addThis.Clone();
+ if ( !node )
+  return 0;
+
+ return LinkEndChild( node );
+}
+
+
+TiXmlNode* TiXmlNode::InsertBeforeChild( TiXmlNode* beforeThis, const TiXmlNode& addThis )
+{
+ if ( !beforeThis || beforeThis->parent != this ) {
+  return 0;
+ }
+ if ( addThis.Type() == TiXmlNode::DOCUMENT )
+ {
+  if ( GetDocument() ) GetDocument()->SetError( TIXML_ERROR_DOCUMENT_TOP_ONLY, 0, 0, TIXML_ENCODING_UNKNOWN );
+  return 0;
+ }
+
+ TiXmlNode* node = addThis.Clone();
+ if ( !node )
+  return 0;
+ node->parent = this;
+
+ node->next = beforeThis;
+ node->prev = beforeThis->prev;
+ if ( beforeThis->prev )
+ {
+  beforeThis->prev->next = node;
+ }
+ else
+ {
+  ((void)0);
+  firstChild = node;
+ }
+ beforeThis->prev = node;
+ return node;
+}
+
+
+TiXmlNode* TiXmlNode::InsertAfterChild( TiXmlNode* afterThis, const TiXmlNode& addThis )
+{
+ if ( !afterThis || afterThis->parent != this ) {
+  return 0;
+ }
+ if ( addThis.Type() == TiXmlNode::DOCUMENT )
+ {
+  if ( GetDocument() ) GetDocument()->SetError( TIXML_ERROR_DOCUMENT_TOP_ONLY, 0, 0, TIXML_ENCODING_UNKNOWN );
+  return 0;
+ }
+
+ TiXmlNode* node = addThis.Clone();
+ if ( !node )
+  return 0;
+ node->parent = this;
+
+ node->prev = afterThis;
+ node->next = afterThis->next;
+ if ( afterThis->next )
+ {
+  afterThis->next->prev = node;
+ }
+ else
+ {
+  ((void)0);
+  lastChild = node;
+ }
+ afterThis->next = node;
+ return node;
+}
+
+
+TiXmlNode* TiXmlNode::ReplaceChild( TiXmlNode* replaceThis, const TiXmlNode& withThis )
+{
+ if ( replaceThis->parent != this )
+  return 0;
+
+ TiXmlNode* node = withThis.Clone();
+ if ( !node )
+  return 0;
+
+ node->next = replaceThis->next;
+ node->prev = replaceThis->prev;
+
+ if ( replaceThis->next )
+  replaceThis->next->prev = node;
+ else
+  lastChild = node;
+
+ if ( replaceThis->prev )
+  replaceThis->prev->next = node;
+ else
+  firstChild = node;
+
+ delete replaceThis;
+ node->parent = this;
+ return node;
+}
+
+
+bool TiXmlNode::RemoveChild( TiXmlNode* removeThis )
+{
+ if ( removeThis->parent != this )
+ {
+  ((void)0);
+  return false;
+ }
+
+ if ( removeThis->next )
+  removeThis->next->prev = removeThis->prev;
+ else
+  lastChild = removeThis->prev;
+
+ if ( removeThis->prev )
+  removeThis->prev->next = removeThis->next;
+ else
+  firstChild = removeThis->next;
+
+ delete removeThis;
+ return true;
+}
+
+const TiXmlNode* TiXmlNode::FirstChild( const char * _value ) const
+{
+ const TiXmlNode* node;
+ for ( node = firstChild; node; node = node->next )
+ {
+  if ( strcmp( node->Value(), _value ) == 0 )
+   return node;
+ }
+ return 0;
+}
+
+
+const TiXmlNode* TiXmlNode::LastChild( const char * _value ) const
+{
+ const TiXmlNode* node;
+ for ( node = lastChild; node; node = node->prev )
+ {
+  if ( strcmp( node->Value(), _value ) == 0 )
+   return node;
+ }
+ return 0;
+}
+
+
+const TiXmlNode* TiXmlNode::IterateChildren( const TiXmlNode* previous ) const
+{
+ if ( !previous )
+ {
+  return FirstChild();
+ }
+ else
+ {
+  ((void)0);
+  return previous->NextSibling();
+ }
+}
+
+
+const TiXmlNode* TiXmlNode::IterateChildren( const char * val, const TiXmlNode* previous ) const
+{
+ if ( !previous )
+ {
+  return FirstChild( val );
+ }
+ else
+ {
+  ((void)0);
+  return previous->NextSibling( val );
+ }
+}
+
+
+const TiXmlNode* TiXmlNode::NextSibling( const char * _value ) const
+{
+ const TiXmlNode* node;
+ for ( node = next; node; node = node->next )
+ {
+  if ( strcmp( node->Value(), _value ) == 0 )
+   return node;
+ }
+ return 0;
+}
+
+
+const TiXmlNode* TiXmlNode::PreviousSibling( const char * _value ) const
+{
+ const TiXmlNode* node;
+ for ( node = prev; node; node = node->prev )
+ {
+  if ( strcmp( node->Value(), _value ) == 0 )
+   return node;
+ }
+ return 0;
+}
+
+
+void TiXmlElement::RemoveAttribute( const char * name )
+{
+
+
+
+
+ TiXmlAttribute* node = attributeSet.Find( name );
+
+ if ( node )
+ {
+  attributeSet.Remove( node );
+  delete node;
+ }
+}
+
+const TiXmlElement* TiXmlNode::FirstChildElement() const
+{
+ const TiXmlNode* node;
+
+ for ( node = FirstChild();
+   node;
+   node = node->NextSibling() )
+ {
+  if ( node->ToElement() )
+   return node->ToElement();
+ }
+ return 0;
+}
+
+
+const TiXmlElement* TiXmlNode::FirstChildElement( const char * _value ) const
+{
+ const TiXmlNode* node;
+
+ for ( node = FirstChild( _value );
+   node;
+   node = node->NextSibling( _value ) )
+ {
+  if ( node->ToElement() )
+   return node->ToElement();
+ }
+ return 0;
+}
+
+
+const TiXmlElement* TiXmlNode::NextSiblingElement() const
+{
+ const TiXmlNode* node;
+
+ for ( node = NextSibling();
+   node;
+   node = node->NextSibling() )
+ {
+  if ( node->ToElement() )
+   return node->ToElement();
+ }
+ return 0;
+}
+
+
+const TiXmlElement* TiXmlNode::NextSiblingElement( const char * _value ) const
+{
+ const TiXmlNode* node;
+
+ for ( node = NextSibling( _value );
+   node;
+   node = node->NextSibling( _value ) )
+ {
+  if ( node->ToElement() )
+   return node->ToElement();
+ }
+ return 0;
+}
+
+
+const TiXmlDocument* TiXmlNode::GetDocument() const
+{
+ const TiXmlNode* node;
+
+ for( node = this; node; node = node->parent )
+ {
+  if ( node->ToDocument() )
+   return node->ToDocument();
+ }
+ return 0;
+}
+
+
+TiXmlElement::TiXmlElement (const char * _value)
+ : TiXmlNode( TiXmlNode::ELEMENT )
+{
+ firstChild = lastChild = 0;
+ value = _value;
+}
+# 522 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.cpp"
+TiXmlElement::TiXmlElement( const TiXmlElement& copy)
+ : TiXmlNode( TiXmlNode::ELEMENT )
+{
+ firstChild = lastChild = 0;
+ copy.CopyTo( this );
+}
+
+
+void TiXmlElement::operator=( const TiXmlElement& base )
+{
+ ClearThis();
+ base.CopyTo( this );
+}
+
+
+TiXmlElement::~TiXmlElement()
+{
+ ClearThis();
+}
+
+
+void TiXmlElement::ClearThis()
+{
+ Clear();
+ while( attributeSet.First() )
+ {
+  TiXmlAttribute* node = attributeSet.First();
+  attributeSet.Remove( node );
+  delete node;
+ }
+}
+
+
+const char* TiXmlElement::Attribute( const char* name ) const
+{
+ const TiXmlAttribute* node = attributeSet.Find( name );
+ if ( node )
+  return node->Value();
+ return 0;
+}
+# 575 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.cpp"
+const char* TiXmlElement::Attribute( const char* name, int* i ) const
+{
+ const char* s = Attribute( name );
+ if ( i )
+ {
+  if ( s ) {
+   *i = atoi( s );
+  }
+  else {
+   *i = 0;
+  }
+ }
+ return s;
+}
+# 609 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.cpp"
+const char* TiXmlElement::Attribute( const char* name, double* d ) const
+{
+ const char* s = Attribute( name );
+ if ( d )
+ {
+  if ( s ) {
+   *d = atof( s );
+  }
+  else {
+   *d = 0;
+  }
+ }
+ return s;
+}
+# 643 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.cpp"
+int TiXmlElement::QueryIntAttribute( const char* name, int* ival ) const
+{
+ const TiXmlAttribute* node = attributeSet.Find( name );
+ if ( !node )
+  return TIXML_NO_ATTRIBUTE;
+ return node->QueryIntValue( ival );
+}
+# 663 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.cpp"
+int TiXmlElement::QueryDoubleAttribute( const char* name, double* dval ) const
+{
+ const TiXmlAttribute* node = attributeSet.Find( name );
+ if ( !node )
+  return TIXML_NO_ATTRIBUTE;
+ return node->QueryDoubleValue( dval );
+}
+# 683 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.cpp"
+void TiXmlElement::SetAttribute( const char * name, int val )
+{
+ char buf[64];
+
+
+
+  sprintf( buf, "%d", val );
+
+ SetAttribute( name, buf );
+}
+# 705 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.cpp"
+void TiXmlElement::SetDoubleAttribute( const char * name, double val )
+{
+ char buf[256];
+
+
+
+  sprintf( buf, "%f", val );
+
+ SetAttribute( name, buf );
+}
+
+
+void TiXmlElement::SetAttribute( const char * cname, const char * cvalue )
+{
+
+
+
+
+ const char* _name = cname;
+ const char* _value = cvalue;
+
+
+ TiXmlAttribute* node = attributeSet.Find( _name );
+ if ( node )
+ {
+  node->SetValue( _value );
+  return;
+ }
+
+ TiXmlAttribute* attrib = new TiXmlAttribute( cname, cvalue );
+ if ( attrib )
+ {
+  attributeSet.Add( attrib );
+ }
+ else
+ {
+  TiXmlDocument* document = GetDocument();
+  if ( document ) document->SetError( TIXML_ERROR_OUT_OF_MEMORY, 0, 0, TIXML_ENCODING_UNKNOWN );
+ }
+}
+# 771 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.cpp"
+void TiXmlElement::Print( FILE* cfile, int depth ) const
+{
+ int i;
+ ((void)0);
+ for ( i=0; i<depth; i++ ) {
+  fprintf( cfile, "    " );
+ }
+
+ fprintf( cfile, "<%s", value.c_str() );
+
+ const TiXmlAttribute* attrib;
+ for ( attrib = attributeSet.First(); attrib; attrib = attrib->Next() )
+ {
+  fprintf( cfile, " " );
+  attrib->Print( cfile, depth );
+ }
+
+
+
+
+
+ TiXmlNode* node;
+ if ( !firstChild )
+ {
+  fprintf( cfile, " />" );
+ }
+ else if ( firstChild == lastChild && firstChild->ToText() )
+ {
+  fprintf( cfile, ">" );
+  firstChild->Print( cfile, depth + 1 );
+  fprintf( cfile, "</%s>", value.c_str() );
+ }
+ else
+ {
+  fprintf( cfile, ">" );
+
+  for ( node = firstChild; node; node=node->NextSibling() )
+  {
+   if ( !node->ToText() )
+   {
+    fprintf( cfile, "\n" );
+   }
+   node->Print( cfile, depth+1 );
+  }
+  fprintf( cfile, "\n" );
+  for( i=0; i<depth; ++i ) {
+   fprintf( cfile, "    " );
+  }
+  fprintf( cfile, "</%s>", value.c_str() );
+ }
+}
+
+
+void TiXmlElement::CopyTo( TiXmlElement* target ) const
+{
+
+ TiXmlNode::CopyTo( target );
+
+
+
+ const TiXmlAttribute* attribute = 0;
+ for( attribute = attributeSet.First();
+ attribute;
+ attribute = attribute->Next() )
+ {
+  target->SetAttribute( attribute->Name(), attribute->Value() );
+ }
+
+ TiXmlNode* node = 0;
+ for ( node = firstChild; node; node = node->NextSibling() )
+ {
+  target->LinkEndChild( node->Clone() );
+ }
+}
+
+bool TiXmlElement::Accept( TiXmlVisitor* visitor ) const
+{
+ if ( visitor->VisitEnter( *this, attributeSet.First() ) )
+ {
+  for ( const TiXmlNode* node=FirstChild(); node; node=node->NextSibling() )
+  {
+   if ( !node->Accept( visitor ) )
+    break;
+  }
+ }
+ return visitor->VisitExit( *this );
+}
+
+
+TiXmlNode* TiXmlElement::Clone() const
+{
+ TiXmlElement* clone = new TiXmlElement( Value() );
+ if ( !clone )
+  return 0;
+
+ CopyTo( clone );
+ return clone;
+}
+
+
+const char* TiXmlElement::GetText() const
+{
+ const TiXmlNode* child = this->FirstChild();
+ if ( child ) {
+  const TiXmlText* childText = child->ToText();
+  if ( childText ) {
+   return childText->Value();
+  }
+ }
+ return 0;
+}
+
+
+TiXmlDocument::TiXmlDocument() : TiXmlNode( TiXmlNode::DOCUMENT )
+{
+ tabsize = 4;
+ useMicrosoftBOM = false;
+ ClearError();
+}
+
+TiXmlDocument::TiXmlDocument( const char * documentName ) : TiXmlNode( TiXmlNode::DOCUMENT )
+{
+ tabsize = 4;
+ useMicrosoftBOM = false;
+ value = documentName;
+ ClearError();
+}
+# 911 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.cpp"
+TiXmlDocument::TiXmlDocument( const TiXmlDocument& copy ) : TiXmlNode( TiXmlNode::DOCUMENT )
+{
+ copy.CopyTo( this );
+}
+
+
+void TiXmlDocument::operator=( const TiXmlDocument& copy )
+{
+ Clear();
+ copy.CopyTo( this );
+}
+
+
+bool TiXmlDocument::LoadFile( TiXmlEncoding encoding )
+{
+
+
+
+ return LoadFile( Value(), encoding );
+}
+
+
+bool TiXmlDocument::SaveFile() const
+{
+
+
+
+
+
+
+
+ return SaveFile( Value() );
+}
+
+bool TiXmlDocument::LoadFile( const char* _filename, TiXmlEncoding encoding )
+{
+
+
+
+
+
+
+
+ TiXmlString filename( _filename );
+ value = filename;
+
+
+ FILE* file = TiXmlFOpen( value.c_str (), "rb" );
+
+ if ( file )
+ {
+  bool result = LoadFile( file, encoding );
+  fclose( file );
+  return result;
+ }
+ else
+ {
+  SetError( TIXML_ERROR_OPENING_FILE, 0, 0, TIXML_ENCODING_UNKNOWN );
+  return false;
+ }
+}
+
+bool TiXmlDocument::LoadFile( FILE* file, TiXmlEncoding encoding )
+{
+ if ( !file )
+ {
+  SetError( TIXML_ERROR_OPENING_FILE, 0, 0, TIXML_ENCODING_UNKNOWN );
+  return false;
+ }
+
+
+ Clear();
+ location.Clear();
+
+
+ long length = 0;
+ fseek( file, 0, 2 );
+ length = ftell( file );
+ fseek( file, 0, 0 );
+
+
+ if ( length <= 0 )
+ {
+  SetError( TIXML_ERROR_DOCUMENT_EMPTY, 0, 0, TIXML_ENCODING_UNKNOWN );
+  return false;
+ }
+
+
+
+ TiXmlString data;
+ data.reserve( length );
+# 1024 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.cpp"
+ char* buf = new char[ length+1 ];
+ buf[0] = 0;
+
+ if ( fread( buf, length, 1, file ) != 1 ) {
+  delete [] buf;
+  SetError( TIXML_ERROR_OPENING_FILE, 0, 0, TIXML_ENCODING_UNKNOWN );
+  return false;
+ }
+
+ const char* lastPos = buf;
+ const char* p = buf;
+
+ buf[length] = 0;
+ while( *p ) {
+  ((void)0);
+  if ( *p == 0xa ) {
+
+
+   data.append( lastPos, (p-lastPos+1) );
+   ++p;
+   lastPos = p;
+   ((void)0);
+  }
+  else if ( *p == 0xd ) {
+
+
+   if ( (p-lastPos) > 0 ) {
+    data.append( lastPos, p-lastPos );
+   }
+   data += (char)0xa;
+
+   if ( *(p+1) == 0xa ) {
+
+    p += 2;
+    lastPos = p;
+    ((void)0);
+   }
+   else {
+
+    ++p;
+    lastPos = p;
+    ((void)0);
+   }
+  }
+  else {
+   ++p;
+  }
+ }
+
+ if ( p-lastPos ) {
+  data.append( lastPos, p-lastPos );
+ }
+ delete [] buf;
+ buf = 0;
+
+ Parse( data.c_str(), 0, encoding );
+
+ if ( Error() )
+        return false;
+    else
+  return true;
+}
+
+
+bool TiXmlDocument::SaveFile( const char * filename ) const
+{
+
+ FILE* fp = TiXmlFOpen( filename, "w" );
+ if ( fp )
+ {
+  bool result = SaveFile( fp );
+  fclose( fp );
+  return result;
+ }
+ return false;
+}
+
+
+bool TiXmlDocument::SaveFile( FILE* fp ) const
+{
+ if ( useMicrosoftBOM )
+ {
+  const unsigned char TIXML_UTF_LEAD_0 = 0xefU;
+  const unsigned char TIXML_UTF_LEAD_1 = 0xbbU;
+  const unsigned char TIXML_UTF_LEAD_2 = 0xbfU;
+
+  fputc( TIXML_UTF_LEAD_0, fp );
+  fputc( TIXML_UTF_LEAD_1, fp );
+  fputc( TIXML_UTF_LEAD_2, fp );
+ }
+ Print( fp, 0 );
+ return (ferror(fp) == 0);
+}
+
+
+void TiXmlDocument::CopyTo( TiXmlDocument* target ) const
+{
+ TiXmlNode::CopyTo( target );
+
+ target->error = error;
+ target->errorId = errorId;
+ target->errorDesc = errorDesc;
+ target->tabsize = tabsize;
+ target->errorLocation = errorLocation;
+ target->useMicrosoftBOM = useMicrosoftBOM;
+
+ TiXmlNode* node = 0;
+ for ( node = firstChild; node; node = node->NextSibling() )
+ {
+  target->LinkEndChild( node->Clone() );
+ }
+}
+
+
+TiXmlNode* TiXmlDocument::Clone() const
+{
+ TiXmlDocument* clone = new TiXmlDocument();
+ if ( !clone )
+  return 0;
+
+ CopyTo( clone );
+ return clone;
+}
+
+
+void TiXmlDocument::Print( FILE* cfile, int depth ) const
+{
+ ((void)0);
+ for ( const TiXmlNode* node=FirstChild(); node; node=node->NextSibling() )
+ {
+  node->Print( cfile, depth );
+  fprintf( cfile, "\n" );
+ }
+}
+
+
+bool TiXmlDocument::Accept( TiXmlVisitor* visitor ) const
+{
+ if ( visitor->VisitEnter( *this ) )
+ {
+  for ( const TiXmlNode* node=FirstChild(); node; node=node->NextSibling() )
+  {
+   if ( !node->Accept( visitor ) )
+    break;
+  }
+ }
+ return visitor->VisitExit( *this );
+}
+
+
+const TiXmlAttribute* TiXmlAttribute::Next() const
+{
+
+
+ if ( next->value.empty() && next->name.empty() )
+  return 0;
+ return next;
+}
+# 1194 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.cpp"
+const TiXmlAttribute* TiXmlAttribute::Previous() const
+{
+
+
+ if ( prev->value.empty() && prev->name.empty() )
+  return 0;
+ return prev;
+}
+# 1214 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.cpp"
+void TiXmlAttribute::Print( FILE* cfile, int , TiXmlString* str ) const
+{
+ TiXmlString n, v;
+
+ EncodeString( name, &n );
+ EncodeString( value, &v );
+
+ if (value.find ('\"') == TiXmlString::npos) {
+  if ( cfile ) {
+  fprintf (cfile, "%s=\"%s\"", n.c_str(), v.c_str() );
+  }
+  if ( str ) {
+   (*str) += n; (*str) += "=\""; (*str) += v; (*str) += "\"";
+  }
+ }
+ else {
+  if ( cfile ) {
+  fprintf (cfile, "%s='%s'", n.c_str(), v.c_str() );
+  }
+  if ( str ) {
+   (*str) += n; (*str) += "='"; (*str) += v; (*str) += "'";
+  }
+ }
+}
+
+
+int TiXmlAttribute::QueryIntValue( int* ival ) const
+{
+ if ( sscanf( value.c_str(), "%d", ival ) == 1 )
+  return TIXML_SUCCESS;
+ return TIXML_WRONG_TYPE;
+}
+
+int TiXmlAttribute::QueryDoubleValue( double* dval ) const
+{
+ if ( sscanf( value.c_str(), "%lf", dval ) == 1 )
+  return TIXML_SUCCESS;
+ return TIXML_WRONG_TYPE;
+}
+
+void TiXmlAttribute::SetIntValue( int _value )
+{
+ char buf [64];
+
+
+
+  sprintf (buf, "%d", _value);
+
+ SetValue (buf);
+}
+
+void TiXmlAttribute::SetDoubleValue( double _value )
+{
+ char buf [256];
+
+
+
+  sprintf (buf, "%lf", _value);
+
+ SetValue (buf);
+}
+
+int TiXmlAttribute::IntValue() const
+{
+ return atoi (value.c_str ());
+}
+
+double TiXmlAttribute::DoubleValue() const
+{
+ return atof (value.c_str ());
+}
+
+
+TiXmlComment::TiXmlComment( const TiXmlComment& copy ) : TiXmlNode( TiXmlNode::COMMENT )
+{
+ copy.CopyTo( this );
+}
+
+
+void TiXmlComment::operator=( const TiXmlComment& base )
+{
+ Clear();
+ base.CopyTo( this );
+}
+
+
+void TiXmlComment::Print( FILE* cfile, int depth ) const
+{
+ ((void)0);
+ for ( int i=0; i<depth; i++ )
+ {
+  fprintf( cfile, "    " );
+ }
+ fprintf( cfile, "<!--%s-->", value.c_str() );
+}
+
+
+void TiXmlComment::CopyTo( TiXmlComment* target ) const
+{
+ TiXmlNode::CopyTo( target );
+}
+
+
+bool TiXmlComment::Accept( TiXmlVisitor* visitor ) const
+{
+ return visitor->Visit( *this );
+}
+
+
+TiXmlNode* TiXmlComment::Clone() const
+{
+ TiXmlComment* clone = new TiXmlComment();
+
+ if ( !clone )
+  return 0;
+
+ CopyTo( clone );
+ return clone;
+}
+
+
+void TiXmlText::Print( FILE* cfile, int depth ) const
+{
+ ((void)0);
+ if ( cdata )
+ {
+  int i;
+  fprintf( cfile, "\n" );
+  for ( i=0; i<depth; i++ ) {
+   fprintf( cfile, "    " );
+  }
+  fprintf( cfile, "<![CDATA[%s]]>\n", value.c_str() );
+ }
+ else
+ {
+  TiXmlString buffer;
+  EncodeString( value, &buffer );
+  fprintf( cfile, "%s", buffer.c_str() );
+ }
+}
+
+
+void TiXmlText::CopyTo( TiXmlText* target ) const
+{
+ TiXmlNode::CopyTo( target );
+ target->cdata = cdata;
+}
+
+
+bool TiXmlText::Accept( TiXmlVisitor* visitor ) const
+{
+ return visitor->Visit( *this );
+}
+
+
+TiXmlNode* TiXmlText::Clone() const
+{
+ TiXmlText* clone = 0;
+ clone = new TiXmlText( "" );
+
+ if ( !clone )
+  return 0;
+
+ CopyTo( clone );
+ return clone;
+}
+
+
+TiXmlDeclaration::TiXmlDeclaration( const char * _version,
+         const char * _encoding,
+         const char * _standalone )
+ : TiXmlNode( TiXmlNode::DECLARATION )
+{
+ version = _version;
+ encoding = _encoding;
+ standalone = _standalone;
+}
+# 1406 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.cpp"
+TiXmlDeclaration::TiXmlDeclaration( const TiXmlDeclaration& copy )
+ : TiXmlNode( TiXmlNode::DECLARATION )
+{
+ copy.CopyTo( this );
+}
+
+
+void TiXmlDeclaration::operator=( const TiXmlDeclaration& copy )
+{
+ Clear();
+ copy.CopyTo( this );
+}
+
+
+void TiXmlDeclaration::Print( FILE* cfile, int , TiXmlString* str ) const
+{
+ if ( cfile ) fprintf( cfile, "<?xml " );
+ if ( str ) (*str) += "<?xml ";
+
+ if ( !version.empty() ) {
+  if ( cfile ) fprintf (cfile, "version=\"%s\" ", version.c_str ());
+  if ( str ) { (*str) += "version=\""; (*str) += version; (*str) += "\" "; }
+ }
+ if ( !encoding.empty() ) {
+  if ( cfile ) fprintf (cfile, "encoding=\"%s\" ", encoding.c_str ());
+  if ( str ) { (*str) += "encoding=\""; (*str) += encoding; (*str) += "\" "; }
+ }
+ if ( !standalone.empty() ) {
+  if ( cfile ) fprintf (cfile, "standalone=\"%s\" ", standalone.c_str ());
+  if ( str ) { (*str) += "standalone=\""; (*str) += standalone; (*str) += "\" "; }
+ }
+ if ( cfile ) fprintf( cfile, "?>" );
+ if ( str ) (*str) += "?>";
+}
+
+
+void TiXmlDeclaration::CopyTo( TiXmlDeclaration* target ) const
+{
+ TiXmlNode::CopyTo( target );
+
+ target->version = version;
+ target->encoding = encoding;
+ target->standalone = standalone;
+}
+
+
+bool TiXmlDeclaration::Accept( TiXmlVisitor* visitor ) const
+{
+ return visitor->Visit( *this );
+}
+
+
+TiXmlNode* TiXmlDeclaration::Clone() const
+{
+ TiXmlDeclaration* clone = new TiXmlDeclaration();
+
+ if ( !clone )
+  return 0;
+
+ CopyTo( clone );
+ return clone;
+}
+
+
+void TiXmlUnknown::Print( FILE* cfile, int depth ) const
+{
+ for ( int i=0; i<depth; i++ )
+  fprintf( cfile, "    " );
+ fprintf( cfile, "<%s>", value.c_str() );
+}
+
+
+void TiXmlUnknown::CopyTo( TiXmlUnknown* target ) const
+{
+ TiXmlNode::CopyTo( target );
+}
+
+
+bool TiXmlUnknown::Accept( TiXmlVisitor* visitor ) const
+{
+ return visitor->Visit( *this );
+}
+
+
+TiXmlNode* TiXmlUnknown::Clone() const
+{
+ TiXmlUnknown* clone = new TiXmlUnknown();
+
+ if ( !clone )
+  return 0;
+
+ CopyTo( clone );
+ return clone;
+}
+
+
+TiXmlAttributeSet::TiXmlAttributeSet()
+{
+ sentinel.next = &sentinel;
+ sentinel.prev = &sentinel;
+}
+
+
+TiXmlAttributeSet::~TiXmlAttributeSet()
+{
+ ((void)0);
+ ((void)0);
+}
+
+
+void TiXmlAttributeSet::Add( TiXmlAttribute* addMe )
+{
+
+
+
+ ((void)0);
+
+
+ addMe->next = &sentinel;
+ addMe->prev = sentinel.prev;
+
+ sentinel.prev->next = addMe;
+ sentinel.prev = addMe;
+}
+
+void TiXmlAttributeSet::Remove( TiXmlAttribute* removeMe )
+{
+ TiXmlAttribute* node;
+
+ for( node = sentinel.next; node != &sentinel; node = node->next )
+ {
+  if ( node == removeMe )
+  {
+   node->prev->next = node->next;
+   node->next->prev = node->prev;
+   node->next = 0;
+   node->prev = 0;
+   return;
+  }
+ }
+ ((void)0);
+}
+# 1575 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.cpp"
+const TiXmlAttribute* TiXmlAttributeSet::Find( const char* name ) const
+{
+ for( const TiXmlAttribute* node = sentinel.next; node != &sentinel; node = node->next )
+ {
+  if ( strcmp( node->name.c_str(), name ) == 0 )
+   return node;
+ }
+ return 0;
+}
+# 1634 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinyxml.cpp"
+TiXmlHandle TiXmlHandle::FirstChild() const
+{
+ if ( node )
+ {
+  TiXmlNode* child = node->FirstChild();
+  if ( child )
+   return TiXmlHandle( child );
+ }
+ return TiXmlHandle( 0 );
+}
+
+
+TiXmlHandle TiXmlHandle::FirstChild( const char * value ) const
+{
+ if ( node )
+ {
+  TiXmlNode* child = node->FirstChild( value );
+  if ( child )
+   return TiXmlHandle( child );
+ }
+ return TiXmlHandle( 0 );
+}
+
+
+TiXmlHandle TiXmlHandle::FirstChildElement() const
+{
+ if ( node )
+ {
+  TiXmlElement* child = node->FirstChildElement();
+  if ( child )
+   return TiXmlHandle( child );
+ }
+ return TiXmlHandle( 0 );
+}
+
+
+TiXmlHandle TiXmlHandle::FirstChildElement( const char * value ) const
+{
+ if ( node )
+ {
+  TiXmlElement* child = node->FirstChildElement( value );
+  if ( child )
+   return TiXmlHandle( child );
+ }
+ return TiXmlHandle( 0 );
+}
+
+
+TiXmlHandle TiXmlHandle::Child( int count ) const
+{
+ if ( node )
+ {
+  int i;
+  TiXmlNode* child = node->FirstChild();
+  for ( i=0;
+    child && i<count;
+    child = child->NextSibling(), ++i )
+  {
+
+  }
+  if ( child )
+   return TiXmlHandle( child );
+ }
+ return TiXmlHandle( 0 );
+}
+
+
+TiXmlHandle TiXmlHandle::Child( const char* value, int count ) const
+{
+ if ( node )
+ {
+  int i;
+  TiXmlNode* child = node->FirstChild( value );
+  for ( i=0;
+    child && i<count;
+    child = child->NextSibling( value ), ++i )
+  {
+
+  }
+  if ( child )
+   return TiXmlHandle( child );
+ }
+ return TiXmlHandle( 0 );
+}
+
+
+TiXmlHandle TiXmlHandle::ChildElement( int count ) const
+{
+ if ( node )
+ {
+  int i;
+  TiXmlElement* child = node->FirstChildElement();
+  for ( i=0;
+    child && i<count;
+    child = child->NextSiblingElement(), ++i )
+  {
+
+  }
+  if ( child )
+   return TiXmlHandle( child );
+ }
+ return TiXmlHandle( 0 );
+}
+
+
+TiXmlHandle TiXmlHandle::ChildElement( const char* value, int count ) const
+{
+ if ( node )
+ {
+  int i;
+  TiXmlElement* child = node->FirstChildElement( value );
+  for ( i=0;
+    child && i<count;
+    child = child->NextSiblingElement( value ), ++i )
+  {
+
+  }
+  if ( child )
+   return TiXmlHandle( child );
+ }
+ return TiXmlHandle( 0 );
+}
+
+
+bool TiXmlPrinter::VisitEnter( const TiXmlDocument& )
+{
+ return true;
+}
+
+bool TiXmlPrinter::VisitExit( const TiXmlDocument& )
+{
+ return true;
+}
+
+bool TiXmlPrinter::VisitEnter( const TiXmlElement& element, const TiXmlAttribute* firstAttribute )
+{
+ DoIndent();
+ buffer += "<";
+ buffer += element.Value();
+
+ for( const TiXmlAttribute* attrib = firstAttribute; attrib; attrib = attrib->Next() )
+ {
+  buffer += " ";
+  attrib->Print( 0, 0, &buffer );
+ }
+
+ if ( !element.FirstChild() )
+ {
+  buffer += " />";
+  DoLineBreak();
+ }
+ else
+ {
+  buffer += ">";
+  if ( element.FirstChild()->ToText()
+     && element.LastChild() == element.FirstChild()
+     && element.FirstChild()->ToText()->CDATA() == false )
+  {
+   simpleTextPrint = true;
+
+  }
+  else
+  {
+   DoLineBreak();
+  }
+ }
+ ++depth;
+ return true;
+}
+
+
+bool TiXmlPrinter::VisitExit( const TiXmlElement& element )
+{
+ --depth;
+ if ( !element.FirstChild() )
+ {
+
+ }
+ else
+ {
+  if ( simpleTextPrint )
+  {
+   simpleTextPrint = false;
+  }
+  else
+  {
+   DoIndent();
+  }
+  buffer += "</";
+  buffer += element.Value();
+  buffer += ">";
+  DoLineBreak();
+ }
+ return true;
+}
+
+
+bool TiXmlPrinter::Visit( const TiXmlText& text )
+{
+ if ( text.CDATA() )
+ {
+  DoIndent();
+  buffer += "<![CDATA[";
+  buffer += text.Value();
+  buffer += "]]>";
+  DoLineBreak();
+ }
+ else if ( simpleTextPrint )
+ {
+  TiXmlString str;
+  TiXmlBase::EncodeString( text.ValueTStr(), &str );
+  buffer += str;
+ }
+ else
+ {
+  DoIndent();
+  TiXmlString str;
+  TiXmlBase::EncodeString( text.ValueTStr(), &str );
+  buffer += str;
+  DoLineBreak();
+ }
+ return true;
+}
+
+
+bool TiXmlPrinter::Visit( const TiXmlDeclaration& declaration )
+{
+ DoIndent();
+ declaration.Print( 0, 0, &buffer );
+ DoLineBreak();
+ return true;
+}
+
+
+bool TiXmlPrinter::Visit( const TiXmlComment& comment )
+{
+ DoIndent();
+ buffer += "<!--";
+ buffer += comment.Value();
+ buffer += "-->";
+ DoLineBreak();
+ return true;
+}
+
+
+bool TiXmlPrinter::Visit( const TiXmlUnknown& unknown )
+{
+ DoIndent();
+ buffer += "<";
+ buffer += unknown.Value();
+ buffer += ">";
+ DoLineBreak();
+ return true;
+}

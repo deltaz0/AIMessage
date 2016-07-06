@@ -1,0 +1,174 @@
+--5/1  1:42 AM SS --
+Fixed some things, runable builds on Android and Windows
+
+--5/1  12:34AM SS --
+merged Ryota's changes with mine
+
+--5/1  12:25AM SS --
+Added gameplay functionality and history reading to initialize the screens.
+
+--4/30 11:50 PM RI --
+Remove image and name from text template.
+
+--4/30 7:43 PM RI --
+Fixed TextScreen. I will try to fix the memory leak error.
+
+--4/30 1:14  PM SS --
+Fixed quit panel so that cancel will go back to the screen you're on and fixed an error with cloning active elements.
+
+--4/30 4:01 AM SJ --
+- I worked for several hours on the issue of resizing the message box.
+I am not submitting any code as I have not changed anything successfully.
+However, I am documenting the current state of the issue so that I will
+remember it in the morning and so that we have a record of it.
+- The issue is creating a dynamically sized box for the text message.
+- The current code uses the AddMessage function to do so, but one problem
+is that instead of having a separate ui element for the text message:
+i.e. "Hey There"
+it actually creates a single ui element with the npc name and message:
+i.e. "Rick <endl> <endl> Hey There"
+- To fix it, we need to edit the templates.ui file to both remove the npc name
+and create the box.
+- The main problem is that editing the ui file does not alter the execution of
+the release compilation.
+- The reason for this is that marmalade compilation works in two parts:
+The debug caches elements such as the ui stuff into bin files, creating new bins.
+The release does not create new bins, instead relies on and reads only from them.
+- So we need to run the program in debug to edit the ui stuff, otherwise it will
+ignore any changes.
+- The problem with this is that in Debug mode the app runs into a IwAssert memory
+error at line 356 in main, when it tries to add the replyPanel element.
+- To troubleshoot, I switched the 3 lines adding the replyPanel with the 3 lines
+adding the quitPanel. Same error at line 356 again, this time with the quitPanel.
+- I can only assume this means one of two things, either:
+We are overloading the memory of the marmalade debugger with a memory leak or
+too many UI Elements.
+Or the pMain device doesn't like us adding two elements in a row there.
+- Because the IwAssert failure crashes the debugger, it can't create the new bins.
+- The program has to have at one point run in Debug correctly to create the
+working bins in the first place, so we will need to meet to either backtrack to
+an earlier iteration of Ryota's UI code, or otherwise fix the error.
+
+--4/27 2:42  AM SS --
+Started integrating gameplay into new interface. Reply panel has options now. NPC class works.
+Just need a message  template to bring everything together.
+
+--4/27 1:26  AM SS --
+Got each character to have their own cloned text screen using the template.  
+Also edited the addMessage function to take in the screen it needs to add the message to
+
+--4/27 12:30 AM SS --
+Edited Scrollable, fixed to where the app can now figure out which go button you're pushing to see which screen it needs to go to
+
+--4/26 11:44 PM SS --
+Edited Scrollable, added function to add messages to textScreen. Message template needs to be edited in order to fully work
+Also needs to take in Left or Right justified
+
+--4/16 8:29 PM SJ --
+Added new integer element to XML structure (<Time></Time>).
+Updated NPC, Dialogue, and XML classes to keep this value updated.
+Added function getTimeValue() to NPC class.
+Call this at any time to get timeValue.
+Atm, I set them all to 4, but you can make them whatever you want.
+Note that the timeValue corresponds to the ROW that it is in, meaning:
+ - If it is the player's turn, it will point to the time value from the previous NPC text recieved (in this case you would ignore it anyway).
+ - If it is not the player's turn, the time value corresponds to the row of the NEXT NPC text to recieve.
+I made it work this way because we update the index of the row on a text send, so at any given point you can call timeValue and it will give you the one that is 'important'.
+
+--4/16 2:17 AM SS --
+Made the drawing/playing of a character's strings into a function that just gets passed the character whose screen it is.
+
+--4/4  1:38 AM SS --
+Conversation now properly is iterated through and just loops when it gets to the end.
+
+--4/3  6:18 PM SS --
+rectangles now grab from conversation to print, problems with properly going through and getting selections
+when there is a null choice.
+
+--4/2  8:10 AM RI --
+Changed the createRect function. I found a problem that the text interface screen can't be scrolled.
+I will try to fix it later.
+
+--4/2  7:40 AM RI --
+Test
+
+--4/1  1:21 PM SS --
+Got functions from XML reader working in marmalade, fixed errors causing them to not return the correct(or any strings). 
+
+--3/31 7:45 PM SS --
+Added CreateRect function that will create a right or left justified rectangle to fit a string
+
+--3/31 2:33 AM SS --
+Created in text message screen a rectangle that scales to the correct size to fit a string, 
+next step is to make the creation of this rectangle in a seperate method, that also can generate left or right justified
+to show who's speaking
+
+--3/31 12:54 AM SS --
+Edited/added elements in Scrollable to determine how to add elements to IwUI things. Also attempted to start using methods
+from the dialogue grabber that I earlier integrated into Marmalade.
+
+--3/29 12:48 AM SS --
+There was a linker problem plaguing the project, not allowing it to be run.  Fixed that problem and now I can get it running again.
+
+--3/28 11:35 PM SS --
+Integrated XML reading code into Marmalade's mkb and system. Had to turn the tinyXML library into a marmalade subproject
+Still 1 linker problem with the history class. Also cleared dummy code to begin dynamic UI
+
+-- 3/28 12:05 AM SS --
+Script writing started, using XLSX and XML files, Rick, the roommate, and Michael, Rick's friend. 
+About a day and half's worth of dialogue for both characters are done.
+Another character, Jenna is going to be added(who is Michael's girlfriend).
+
+
+-- 3/13 10:16pm SJ --
+History class implemented, working well.
+In its current state, the system will keep a <charName>History.xml for every <charName>.
+If the file does not exist, it will be created, it keeps track of the ids and strings for all dialogue.
+I integrated the history class object into the npc class, and added some new functions to access the data.
+The history storage is automated, so you guys don't have to worry about it, but I did add a function to
+manually delete the history (basically a "new game" for the npc). All history is accessible from an array,
+and the case where texts go in series without a reply is accounted for.
+Also I fixed many special case errors, but I'm sure there are plenty more.
+I'm pretty much done with the data management side, barring a few inevitable tweaks. All that's left to do
+is integrate it into the marmalade project, but I want to wait until I can go over the access functions with you guys.
+Assuming everything went well, you should only have to use the NPC objects. Everything else is backend/accessible from NPC.
+
+
+-- 3/12 10:59pm SJ --
+Added multiple file reading for xml.
+Created NPC class. This will be the main interface for getting data.
+Functions include getText, chooseReply, sendReply, etc.
+Created ReplyArray static class. It reads in the ReplyOptions.xml file and stores them in a static array,
+which is called by the NPC objects to get the reply. It's essentially a mapping of chars to values.
+If I did it right, the array should be entirely static, and all NPCs should not have duplicates of the table.
+I also added a static variable to the NPC class to track how many total NPCs there are in the game, which is used by
+the ReplyArray class to free up memory.
+Tomorrow I will work on the history writing.
+
+
+-- 3/12 12:28am SJ --
+Created directory "XmlInterface" under my folder.
+In it I am uploading the interface for xml and dialogue that I am working on.
+It's a standalone project that I will integrate when it is finished.
+At the moment I have completed the following:
+- Create object for dialogueRow
+- Create array of dialogueRows
+- Load Xml file and read into dialogueRow array
+- Read from dialogueRow array
+...Right now it will initialize an entire xml file into an easily accessible array of row objects
+All I have left to do is expand it to read multiple xmls and initialize their own separate arrays, which shouldnt be too hard
+
+
+-- 2/26 9:40pm SJ --
+Fixed more memory issues, minor bugs.
+Added text message interface.
+Added dialogue reply options.
+Integrated XML Loader with game.cpp.
+Filled in some sample dialogue (temporary).
+Tested extensively, should work for presentation tomorrow.
+
+
+-- 2/24 9:40pm SJ --
+Added XML support. Good way to store dialogue data, currently populates string array with element text.
+Located and fixed a memory leak in AIMessage code (the error when the simulator is exitted), should
+not be a problem anymore.

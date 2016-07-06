@@ -1,0 +1,574 @@
+# 1 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinystr.cpp"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "c:/Users/Stephen/AIMessage_GoogleCode/April 3/team-game-4410/Game Source/AIMessage/build_aimessage_vc10/temp_defines_release.h" 1
+# 1 "<command-line>" 2
+# 1 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinystr.cpp"
+# 32 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinystr.cpp"
+# 1 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinystr.h" 1
+# 42 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinystr.h"
+# 1 "c:/marmalade/6.2/s3e/h/std/assert.h" 1
+# 15 "c:/marmalade/6.2/s3e/h/std/assert.h"
+# 1 "c:/marmalade/6.2/s3e/h/std/sys/types.h" 1
+# 15 "c:/marmalade/6.2/s3e/h/std/sys/types.h"
+# 1 "c:/marmalade/6.2/s3e/h/s3eTypes.h" 1
+# 35 "c:/marmalade/6.2/s3e/h/s3eTypes.h"
+typedef unsigned char s3e_uint8_t;
+typedef signed char s3e_int8_t;
+typedef unsigned short int s3e_uint16_t;
+typedef signed short int s3e_int16_t;
+typedef unsigned int s3e_uint32_t;
+typedef signed int s3e_int32_t;
+# 49 "c:/marmalade/6.2/s3e/h/s3eTypes.h"
+  typedef signed long long s3e_int64_t;
+  typedef unsigned long long s3e_uint64_t;
+# 72 "c:/marmalade/6.2/s3e/h/s3eTypes.h"
+typedef s3e_uint64_t uint64_t;
+typedef s3e_int64_t int64_t;
+typedef s3e_uint32_t uint32_t;
+typedef s3e_int32_t int32_t;
+typedef s3e_uint16_t uint16_t;
+typedef s3e_int16_t int16_t;
+typedef s3e_uint8_t uint8_t;
+typedef s3e_int8_t int8_t;
+# 94 "c:/marmalade/6.2/s3e/h/s3eTypes.h"
+    typedef int intptr_t;
+    typedef unsigned int uintptr_t;
+# 106 "c:/marmalade/6.2/s3e/h/s3eTypes.h"
+typedef unsigned int uint;
+typedef unsigned short int ushort;
+typedef unsigned long int ulong;
+typedef unsigned char uint8;
+typedef signed char int8;
+
+
+
+
+
+
+
+typedef int64_t int64;
+typedef uint64_t uint64;
+
+
+
+
+
+typedef unsigned int uint32;
+
+
+
+
+
+
+typedef signed int int32;
+
+
+
+
+
+
+typedef uint16_t uint16;
+
+
+
+
+typedef int16_t int16;
+# 224 "c:/marmalade/6.2/s3e/h/s3eTypes.h"
+typedef enum s3eResult
+{
+    S3E_RESULT_SUCCESS = 0,
+    S3E_RESULT_ERROR = 1
+} s3eResult;
+
+
+
+
+typedef uint8 s3eBool;
+# 242 "c:/marmalade/6.2/s3e/h/s3eTypes.h"
+typedef wchar_t s3eWChar;
+# 254 "c:/marmalade/6.2/s3e/h/s3eTypes.h"
+typedef int32 (*s3eCallback) (void* systemData, void* userData);
+# 16 "c:/marmalade/6.2/s3e/h/std/sys/types.h" 2
+# 1 "c:/marmalade/6.2/s3e/h/std/stddef.h" 1
+# 15 "c:/marmalade/6.2/s3e/h/std/stddef.h"
+typedef signed int ptrdiff_t;
+
+
+    typedef unsigned int wint_t;
+    typedef unsigned long int wctype_t;
+
+
+
+
+
+
+
+typedef unsigned int size_t;
+# 17 "c:/marmalade/6.2/s3e/h/std/sys/types.h" 2
+# 1 "c:/marmalade/6.2/s3e/h/std/stdint.h" 1
+# 19 "c:/marmalade/6.2/s3e/h/std/stdint.h"
+typedef signed char int_least8_t;
+typedef short int_least16_t;
+typedef long int_least32_t;
+typedef int64_t int_least64_t;
+
+typedef unsigned char uint_least8_t;
+typedef unsigned short uint_least16_t;
+typedef unsigned long uint_least32_t;
+typedef uint64_t uint_least64_t;
+
+typedef signed char int_fast8_t;
+typedef short int_fast16_t;
+typedef long int_fast32_t;
+typedef int64_t int_fast64_t;
+
+typedef unsigned char uint_fast8_t;
+typedef unsigned short uint_fast16_t;
+typedef unsigned long uint_fast32_t;
+typedef uint64_t uint_fast64_t;
+
+typedef int64_t intmax_t;
+typedef uint64_t uintmax_t;
+# 18 "c:/marmalade/6.2/s3e/h/std/sys/types.h" 2
+# 1 "c:/marmalade/6.2/s3e/h/std/sys/select.h" 1
+# 24 "c:/marmalade/6.2/s3e/h/std/sys/select.h"
+struct timeval;
+
+typedef struct fd_set
+{
+    char fds_bits[256/8];
+} fd_set;
+# 39 "c:/marmalade/6.2/s3e/h/std/sys/select.h"
+extern "C" {
+
+int select(int nfds, fd_set *readfds, fd_set *writefds, fd_set *exceptfds, struct timeval *timeout);
+
+}
+# 19 "c:/marmalade/6.2/s3e/h/std/sys/types.h" 2
+
+
+
+typedef long off_t;
+
+typedef int64_t off64_t;
+
+
+namespace std
+{
+typedef ::size_t size_t;
+}
+
+
+typedef uint u_int;
+typedef uint8_t u_int8_t;
+typedef uint16_t u_int16_t;
+typedef uint32_t u_int32_t;
+typedef uint64_t u_int64_t;
+
+typedef unsigned short u_short;
+typedef unsigned long u_long;
+typedef unsigned char u_char;
+
+typedef int ssize_t;
+typedef int pid_t;
+typedef short uid_t;
+typedef short gid_t;
+typedef int idtype_t;
+typedef int id_t;
+typedef uint32 mode_t;
+typedef short dev_t;
+typedef short ino_t;
+typedef int key_t;
+typedef void* caddr_t;
+# 16 "c:/marmalade/6.2/s3e/h/std/assert.h" 2
+
+extern "C" {
+# 43 "c:/marmalade/6.2/s3e/h/std/assert.h"
+}
+# 43 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinystr.h" 2
+# 1 "c:/marmalade/6.2/s3e/h/std/string.h" 1
+# 17 "c:/marmalade/6.2/s3e/h/std/string.h"
+extern "C" {
+
+void *memcpy(void *dest, const void *src, size_t n);
+void *memset(void *s, int c, size_t n);
+int memcmp(const void *s1, const void *s2, size_t n);
+void *memmove(void *dest, const void *src, size_t n);
+void *memchr(const void *s, int c, size_t n);
+void *memrchr(const void *s, int c, size_t n);
+
+
+
+
+
+
+
+int strcmp(const char *s1, const char *s2);
+int strncmp(const char *s1, const char *s2, size_t n);
+char *strsep(char **stringp, const char *delim);
+char *strcpy(char *dest, const char *src);
+char *strncpy(char *dest, const char *src, size_t n);
+char *strchr(const char *s, int c);
+char *strstr(const char *haystack, const char *needle);
+char *strrchr(const char *s, int c);
+char *strdup(const char *s);
+char *strtok(char *str, const char *delim);
+char *strtok_r(char *str, const char *delim, char **saveptr);
+char *strcat(char *dest, const char *src);
+char *strncat(char *dest, const char *src, size_t n);
+size_t strlen(const char *s);
+size_t strnlen(const char *s, size_t n);
+int strcasecmp(const char *s1, const char *s2);
+int strncasecmp(const char *s1, const char *s2, size_t n);
+size_t strspn(const char *s, const char *accept);
+size_t strcspn(const char *s, const char *reject);
+char *strpbrk(const char *s, const char *accept);
+int strcoll(const char *s1, const char *s2);
+char *strerror(int errnum);
+size_t strxfrm(char *dest, const char *src, size_t n);
+
+int strerror_r(int errnum, char *buf, size_t buflen);
+
+
+
+
+
+size_t strlcpy(char* dest, const char* src, size_t len);
+size_t strlcat(char* dest, const char* src, size_t len);
+
+}
+# 44 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinystr.h" 2
+# 67 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinystr.h"
+class TiXmlString
+{
+  public :
+
+   typedef size_t size_type;
+
+
+ static const size_type npos;
+
+
+
+ TiXmlString () : rep_(&nullrep_)
+ {
+ }
+
+
+ TiXmlString ( const TiXmlString & copy) : rep_(0)
+ {
+  init(copy.length());
+  memcpy(start(), copy.data(), length());
+ }
+
+
+ explicit TiXmlString ( const char * copy) : rep_(0)
+ {
+  init( static_cast<size_type>( strlen(copy) ));
+  memcpy(start(), copy, length());
+ }
+
+
+ explicit TiXmlString ( const char * str, size_type len) : rep_(0)
+ {
+  init(len);
+  memcpy(start(), str, len);
+ }
+
+
+ ~TiXmlString ()
+ {
+  quit();
+ }
+
+
+ TiXmlString& operator = (const char * copy)
+ {
+  return assign( copy, (size_type)strlen(copy));
+ }
+
+
+ TiXmlString& operator = (const TiXmlString & copy)
+ {
+  return assign(copy.start(), copy.length());
+ }
+
+
+
+ TiXmlString& operator += (const char * suffix)
+ {
+  return append(suffix, static_cast<size_type>( strlen(suffix) ));
+ }
+
+
+ TiXmlString& operator += (char single)
+ {
+  return append(&single, 1);
+ }
+
+
+ TiXmlString& operator += (const TiXmlString & suffix)
+ {
+  return append(suffix.data(), suffix.length());
+ }
+
+
+
+ const char * c_str () const { return rep_->str; }
+
+
+ const char * data () const { return rep_->str; }
+
+
+ size_type length () const { return rep_->size; }
+
+
+ size_type size () const { return rep_->size; }
+
+
+ bool empty () const { return rep_->size == 0; }
+
+
+ size_type capacity () const { return rep_->capacity; }
+
+
+
+ const char& at (size_type index) const
+ {
+  ((void)0);
+  return rep_->str[ index ];
+ }
+
+
+ char& operator [] (size_type index) const
+ {
+  ((void)0);
+  return rep_->str[ index ];
+ }
+
+
+ size_type find (char lookup) const
+ {
+  return find(lookup, 0);
+ }
+
+
+ size_type find (char tofind, size_type offset) const
+ {
+  if (offset >= length()) return npos;
+
+  for (const char* p = c_str() + offset; *p != '\0'; ++p)
+  {
+     if (*p == tofind) return static_cast< size_type >( p - c_str() );
+  }
+  return npos;
+ }
+
+ void clear ()
+ {
+
+
+
+
+  quit();
+  init(0,0);
+ }
+
+
+
+
+ void reserve (size_type cap);
+
+ TiXmlString& assign (const char* str, size_type len);
+
+ TiXmlString& append (const char* str, size_type len);
+
+ void swap (TiXmlString& other)
+ {
+  Rep* r = rep_;
+  rep_ = other.rep_;
+  other.rep_ = r;
+ }
+
+  private:
+
+ void init(size_type sz) { init(sz, sz); }
+ void set_size(size_type sz) { rep_->str[ rep_->size = sz ] = '\0'; }
+ char* start() const { return rep_->str; }
+ char* finish() const { return rep_->str + rep_->size; }
+
+ struct Rep
+ {
+  size_type size, capacity;
+  char str[1];
+ };
+
+ void init(size_type sz, size_type cap)
+ {
+  if (cap)
+  {
+
+
+
+
+
+   const size_type bytesNeeded = sizeof(Rep) + cap;
+   const size_type intsNeeded = ( bytesNeeded + sizeof(int) - 1 ) / sizeof( int );
+   rep_ = reinterpret_cast<Rep*>( new int[ intsNeeded ] );
+
+   rep_->str[ rep_->size = sz ] = '\0';
+   rep_->capacity = cap;
+  }
+  else
+  {
+   rep_ = &nullrep_;
+  }
+ }
+
+ void quit()
+ {
+  if (rep_ != &nullrep_)
+  {
+
+
+   delete [] ( reinterpret_cast<int*>( rep_ ) );
+  }
+ }
+
+ Rep * rep_;
+ static Rep nullrep_;
+
+} ;
+
+
+inline bool operator == (const TiXmlString & a, const TiXmlString & b)
+{
+ return ( a.length() == b.length() )
+        && ( strcmp(a.c_str(), b.c_str()) == 0 );
+}
+inline bool operator < (const TiXmlString & a, const TiXmlString & b)
+{
+ return strcmp(a.c_str(), b.c_str()) < 0;
+}
+
+inline bool operator != (const TiXmlString & a, const TiXmlString & b) { return !(a == b); }
+inline bool operator > (const TiXmlString & a, const TiXmlString & b) { return b < a; }
+inline bool operator <= (const TiXmlString & a, const TiXmlString & b) { return !(b < a); }
+inline bool operator >= (const TiXmlString & a, const TiXmlString & b) { return !(a < b); }
+
+inline bool operator == (const TiXmlString & a, const char* b) { return strcmp(a.c_str(), b) == 0; }
+inline bool operator == (const char* a, const TiXmlString & b) { return b == a; }
+inline bool operator != (const TiXmlString & a, const char* b) { return !(a == b); }
+inline bool operator != (const char* a, const TiXmlString & b) { return !(b == a); }
+
+TiXmlString operator + (const TiXmlString & a, const TiXmlString & b);
+TiXmlString operator + (const TiXmlString & a, const char* b);
+TiXmlString operator + (const char* a, const TiXmlString & b);
+
+
+
+
+
+
+class TiXmlOutStream : public TiXmlString
+{
+public :
+
+
+ TiXmlOutStream & operator << (const TiXmlString & in)
+ {
+  *this += in;
+  return *this;
+ }
+
+
+ TiXmlOutStream & operator << (const char * in)
+ {
+  *this += in;
+  return *this;
+ }
+
+} ;
+# 33 "c:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream/tinystr.cpp" 2
+
+
+const TiXmlString::size_type TiXmlString::npos = static_cast< TiXmlString::size_type >(-1);
+
+
+
+TiXmlString::Rep TiXmlString::nullrep_ = { 0, 0, { '\0' } };
+
+
+void TiXmlString::reserve (size_type cap)
+{
+ if (cap > capacity())
+ {
+  TiXmlString tmp;
+  tmp.init(length(), cap);
+  memcpy(tmp.start(), data(), length());
+  swap(tmp);
+ }
+}
+
+
+TiXmlString& TiXmlString::assign(const char* str, size_type len)
+{
+ size_type cap = capacity();
+ if (len > cap || cap > 3*(len + 8))
+ {
+  TiXmlString tmp;
+  tmp.init(len);
+  memcpy(tmp.start(), str, len);
+  swap(tmp);
+ }
+ else
+ {
+  memmove(start(), str, len);
+  set_size(len);
+ }
+ return *this;
+}
+
+
+TiXmlString& TiXmlString::append(const char* str, size_type len)
+{
+ size_type newsize = length() + len;
+ if (newsize > capacity())
+ {
+  reserve (newsize + capacity());
+ }
+ memmove(finish(), str, len);
+ set_size(newsize);
+ return *this;
+}
+
+
+TiXmlString operator + (const TiXmlString & a, const TiXmlString & b)
+{
+ TiXmlString tmp;
+ tmp.reserve(a.length() + b.length());
+ tmp += a;
+ tmp += b;
+ return tmp;
+}
+
+TiXmlString operator + (const TiXmlString & a, const char* b)
+{
+ TiXmlString tmp;
+ TiXmlString::size_type b_len = static_cast<TiXmlString::size_type>( strlen(b) );
+ tmp.reserve(a.length() + b_len);
+ tmp += a;
+ tmp.append(b, b_len);
+ return tmp;
+}
+
+TiXmlString operator + (const char* a, const TiXmlString & b)
+{
+ TiXmlString tmp;
+ TiXmlString::size_type a_len = static_cast<TiXmlString::size_type>( strlen(a) );
+ tmp.reserve(a_len + b.length());
+ tmp.append(a, a_len);
+ tmp += b;
+ return tmp;
+}

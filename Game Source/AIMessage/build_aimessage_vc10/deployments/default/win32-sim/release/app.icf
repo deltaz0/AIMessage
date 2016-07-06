@@ -1,0 +1,6 @@
+# comments and whitespace stripped by deployment tool
+[S3E]
+DispFixRot=1
+[s3e]
+SysAppVersion=0.0.1
+SysAppCaption="AIMessage"

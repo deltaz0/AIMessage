@@ -1,0 +1,20 @@
+ResGroupResources:
+	CIwUIElement (0x6097ed50)
+		"main" (0x7c9a7f6a)
+		CIwUIElement (0x6097ed50)
+			"MiddleLayer" (0x939007b1)
+			CIwUIScrollableView (0xd72ba7c4)
+				"Feeds" (0xf6de0cc)
+				Size: 138
+			CIwUILayoutItemContainer (0x4a265b56)
+				"Feeds" (0xf6de0cc)
+				Size: 31
+			Size: 289
+		CIwUILayoutItemContainer (0x4a265b56)
+			"MiddleLayer" (0x939007b1)
+			Size: 31
+		Size: 415
+	ResList 'CIwUIElement' pos:77 size:425
+
+ResGroupResources: Wrote 429 bytes to CIwResGroup "UI"
+

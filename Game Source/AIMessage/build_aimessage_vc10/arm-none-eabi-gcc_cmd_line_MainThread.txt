@@ -1,0 +1,56 @@
+-c
+"c:/Users/Stephen/AIMessage_GoogleCode/April 3/team-game-4410/Game Source/AIMessage/src/xmlloader.cpp"
+-o
+Release_AIMessage_vc10_gcc_arm//xmlloader.obj
+"-Ic:/Users/Stephen/AIMessage_GoogleCode/April 3/team-game-4410/Game Source/AIMessage/h"
+-Ic:/users/stephen/appdata/roaming/marmalade/packages/6.2.0/libjpeg_6b/h
+-Ic:/users/stephen/appdata/roaming/marmalade/packages/6.2.0/zlib_1.2.4/h
+-Ic:/users/stephen/appdata/roaming/marmalade/packages/6.2.0/libpng_1.2.34/h
+-Ic:/marmalade/6.2/modules/iwutil/h
+-Ic:/marmalade/6.2/modules/iwgeom/h
+-Ic:/marmalade/6.2/modules/iwresmanager/h
+-Ic:/marmalade/6.2/modules/iwgl/h
+-Ic:/marmalade/6.2/modules/iwgx/h
+-Ic:/users/stephen/appdata/roaming/marmalade/packages/6.2.0/tiniconv_1.0.1/h
+-Ic:/marmalade/6.2/modules/iwgxfont/h
+-Ic:/marmalade/6.2/modules/iw2d/h
+"-Ic:/users/stephen/aimessage_googlecode/april 3/team-game-4410/game source/aimessage/upstream"
+-Ic:/marmalade/6.2/modules/iwui/h
+-Ic:/marmalade/6.2/s3e/h
+-Ic:/marmalade/6.2/s3e/h/ext
+-Ic:/marmalade/6.2/s3e/h/std
+-Ic:/marmalade/6.2/s3e/h/std/c++
+-Ic:/marmalade/6.2/s3e/h/ext_legacy
+-Ic:/marmalade/6.2/s3e/h/legacy
+-I.
+-funsigned-char
+-fno-strict-aliasing
+-fno-stack-protector
+-fno-short-enums
+-fshort-wchar
+-Wall
+-fomit-frame-pointer
+-fmessage-length=0
+-Wno-unused
+-Wno-parentheses
+-save-temps
+-ffunction-sections
+-mstructure-size-boundary=8
+-mfpu=vfp
+-mfloat-abi=softfp
+-mthumb-interwork
+-march=armv5te
+-mword-relocations
+-Wno-switch
+-Wno-psabi
+-fvisibility=hidden
+-nostdinc
+-fomit-frame-pointer
+-O3
+-D__S3E_CL_WRAPPER
+-include
+"c:/Users/Stephen/AIMessage_GoogleCode/April 3/team-game-4410/Game Source/AIMessage/build_aimessage_vc10/temp_defines_release.h"
+-Wno-reorder
+-fvisibility-inlines-hidden
+-fno-exceptions
+-nostdinc++

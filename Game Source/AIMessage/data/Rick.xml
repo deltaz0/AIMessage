@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DialogueTable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Dialogue>
+		<ID>0</ID>
+		<NPCText>Hey new roommate, we're moving in this weekend! You excited??</NPCText>
+		<ReplyOptionA>a</ReplyOptionA>
+		<ReplyOptionB>b</ReplyOptionB>
+		<ReplyOptionC>c </ReplyOptionC>
+		<ReplyOptionD>d</ReplyOptionD>
+		<PlayerReplyA>Hell yeah! Its gonna be great!</PlayerReplyA>
+		<PlayerReplyB>Um…sure, I guess, I'm not really sure what to make of this whole thing.</PlayerReplyB>
+		<PlayerReplyC>Ugh, not really…I'm not gonna like moving out of here.</PlayerReplyC>
+		<PlayerReplyD>Hell yeah! Its gonna be great!</PlayerReplyD>
+		<APointsTo>1</APointsTo>
+		<BPointsTo>1</BPointsTo>
+		<CPointsTo>2</CPointsTo>
+		<DPointsTo>1</DPointsTo>
+	</Dialogue>
+	<Dialogue>
+		<ID>1</ID>
+		<NPCText>Its crazy, moving into a new place, but its gonna be awesome. :D I may not be here when you get here, I be at a party</NPCText>
+		<ReplyOptionA>e</ReplyOptionA>
+		<ReplyOptionB>b</ReplyOptionB>
+		<ReplyOptionC>f</ReplyOptionC>
+		<ReplyOptionD>g</ReplyOptionD>
+		<PlayerReplyA>That's cool, means I'll be able to get a hang of things while you're out.</PlayerReplyA>
+		<PlayerReplyB>Its all good, no problem, I'll see you when I see you then.</PlayerReplyB>
+		<PlayerReplyC>Alright…well, you'll have to show me whatever I can't figure out/find when you get back or something.</PlayerReplyC>
+		<PlayerReplyD>Alright…well, you'll have to show me whatever I can't figure out/find when you get back or something.</PlayerReplyD>
+		<APointsTo>3</APointsTo>
+		<BPointsTo>3</BPointsTo>
+		<CPointsTo>3</CPointsTo>
+		<DPointsTo>3</DPointsTo>
+	</Dialogue>
+	<Dialogue>
+		<ID>2</ID>
+		<NPCText>I'm sorry dude, well it'll be alright. By the way, I prolly be at a party when you get here</NPCText>
+		<ReplyOptionA>e</ReplyOptionA>
+		<ReplyOptionB>b</ReplyOptionB>
+		<ReplyOptionC>f</ReplyOptionC>
+		<ReplyOptionD>g</ReplyOptionD>
+		<PlayerReplyA>That's cool, means I'll be able to get a hang of things while you're out.</PlayerReplyA>
+		<PlayerReplyB>Its all good, no problem, I'll see you when I see you then.</PlayerReplyB>
+		<PlayerReplyC>Alright…well, you'll have to show me whatever I can't figure out/find when you get back or something.</PlayerReplyC>
+		<PlayerReplyD>Alright…well, you'll have to show me whatever I can't figure out/find when you get back or something.</PlayerReplyD>
+		<APointsTo>3</APointsTo>
+		<BPointsTo>3</BPointsTo>
+		<CPointsTo>3</CPointsTo>
+		<DPointsTo>3</DPointsTo>
+	</Dialogue>
+	<Dialogue>
+		<ID>3</ID>
+		<NPCText>Cool!! I'm super excited :D</NPCText>
+		<ReplyOptionA>a</ReplyOptionA>
+		<ReplyOptionB>a</ReplyOptionB>
+		<ReplyOptionC>a</ReplyOptionC>
+		<ReplyOptionD>a</ReplyOptionD>
+		<PlayerReplyA>null</PlayerReplyA>
+		<PlayerReplyB>null</PlayerReplyB>
+		<PlayerReplyC>null</PlayerReplyC>
+		<PlayerReplyD>null</PlayerReplyD>
+		<APointsTo>4</APointsTo>
+		<BPointsTo>4</BPointsTo>
+		<CPointsTo>4</CPointsTo>
+		<DPointsTo>4</DPointsTo>
+	</Dialogue>
+	<Dialogue>
+		<ID>4</ID>
+		<NPCText>OH, I FORGOT TO TELL YOU.  I hooked us up a nice 42" TV up in our common space. :D</NPCText>
+		<ReplyOptionA>a</ReplyOptionA>
+		<ReplyOptionB>b</ReplyOptionB>
+		<ReplyOptionC>h</ReplyOptionC>
+		<ReplyOptionD>f</ReplyOptionD>
+		<PlayerReplyA>AWESOME, YESSS 1080p?</PlayerReplyA>
+		<PlayerReplyB>Cool. So, like can I hook my stuff up to it?</PlayerReplyB>
+		<PlayerReplyC>Sweet! So I can use it too?</PlayerReplyC>
+		<PlayerReplyD>You're not gonna be up on it all hours of the night are you…?</PlayerReplyD>
+		<APointsTo>5</APointsTo>
+		<BPointsTo>6</BPointsTo>
+		<CPointsTo>6</CPointsTo>
+		<DPointsTo>7</DPointsTo>
+	</Dialogue>
+	<Dialogue>
+		<ID>5</ID>
+		<NPCText>HELL YEAH ITS 1080p! It'll be sweet :D our pad will be a party pad!</NPCText>
+		<ReplyOptionA>a</ReplyOptionA>
+		<ReplyOptionB>b</ReplyOptionB>
+		<ReplyOptionC>h</ReplyOptionC>
+		<ReplyOptionD>f</ReplyOptionD>
+		<PlayerReplyA>Sweeeeet. I am excite for move in tomorrow.</PlayerReplyA>
+		<PlayerReplyB>Coo.  How about a fridge, is there one in the common space?</PlayerReplyB>
+		<PlayerReplyC>Sweeeeet. I am excite for move in tomorrow.</PlayerReplyC>
+		<PlayerReplyD>Hopefully not too much of a party pad hahaa…</PlayerReplyD>
+		<APointsTo>8</APointsTo>
+		<BPointsTo>8</BPointsTo>
+		<CPointsTo>8</CPointsTo>
+		<DPointsTo>7</DPointsTo>
+	</Dialogue>
+	<Dialogue>
+		<ID>6</ID>
+		<NPCText>Yeah! Of course! Sharing is caring haha.</NPCText>
+		<ReplyOptionA>a</ReplyOptionA>
+		<ReplyOptionB>b</ReplyOptionB>
+		<ReplyOptionC>h</ReplyOptionC>
+		<ReplyOptionD>a</ReplyOptionD>
+		<PlayerReplyA>Sweeeeet. I am excite for move in tomorrow.</PlayerReplyA>
+		<PlayerReplyB>Coo.  How about a fridge, is there one in the common space?</PlayerReplyB>
+		<PlayerReplyC>Sweeeeet. I am excite for move in tomorrow.</PlayerReplyC>
+		<PlayerReplyD>null</PlayerReplyD>
+		<APointsTo>8</APointsTo>
+		<BPointsTo>8</BPointsTo>
+		<CPointsTo>8</CPointsTo>
+		<DPointsTo>8</DPointsTo>
+	</Dialogue>
+	<Dialogue>
+		<ID>7</ID>
+		<NPCText>Oh, no, don't worry, I mean, I kinda party sometimes, but if you don't want I'll try to keep it out of our place. No worries.</NPCText>
+		<ReplyOptionA>e</ReplyOptionA>
+		<ReplyOptionB>b</ReplyOptionB>
+		<ReplyOptionC>h</ReplyOptionC>
+		<ReplyOptionD>a</ReplyOptionD>
+		<PlayerReplyA>Okay :) Cool.  Not sure I'm quite up to crazy loudness haha.</PlayerReplyA>
+		<PlayerReplyB>Okay, no big deal.</PlayerReplyB>
+		<PlayerReplyC>Okay, cool :)</PlayerReplyC>
+		<PlayerReplyD>null</PlayerReplyD>
+		<APointsTo>8</APointsTo>
+		<BPointsTo>8</BPointsTo>
+		<CPointsTo>8</CPointsTo>
+		<DPointsTo>8</DPointsTo>
+	</Dialogue>
+	<Dialogue>
+		<ID>8</ID>
+		<NPCText>THERE IS ALSO A FRIDGE. BOOM. WE HAVE THE ABILITY TO CHILL THINGS!</NPCText>
+		<ReplyOptionA>a</ReplyOptionA>
+		<ReplyOptionB>b</ReplyOptionB>
+		<ReplyOptionC>h</ReplyOptionC>
+		<ReplyOptionD>i</ReplyOptionD>
+		<PlayerReplyA>WOO FRIDGE :D</PlayerReplyA>
+		<PlayerReplyB>Cool.  Good.</PlayerReplyB>
+		<PlayerReplyC>Awesome, one less thing to have to worry about.</PlayerReplyC>
+		<PlayerReplyD>How big is the freezer? I've got plans to buy lots of ice cream :D</PlayerReplyD>
+		<APointsTo>10</APointsTo>
+		<BPointsTo>10</BPointsTo>
+		<CPointsTo>10</CPointsTo>
+		<DPointsTo>9</DPointsTo>
+	</Dialogue>
+	<Dialogue>
+		<ID>9</ID>
+		<NPCText>It is big enough for you to just buy ALL of the ice cream(as long as you share :P )</NPCText>
+		<ReplyOptionA>a</ReplyOptionA>
+		<ReplyOptionB>a</ReplyOptionB>
+		<ReplyOptionC>a</ReplyOptionC>
+		<ReplyOptionD>a</ReplyOptionD>
+		<PlayerReplyA>null</PlayerReplyA>
+		<PlayerReplyB>null</PlayerReplyB>
+		<PlayerReplyC>null</PlayerReplyC>
+		<PlayerReplyD>null</PlayerReplyD>
+		<APointsTo>10</APointsTo>
+		<BPointsTo>10</BPointsTo>
+		<CPointsTo>10</CPointsTo>
+		<DPointsTo>10</DPointsTo>
+	</Dialogue>
+	<Dialogue>
+		<ID>10</ID>
+		<NPCText>Talk to you later! I gotta go take care of some things for the party tomorrow.</NPCText>
+		<ReplyOptionA>a</ReplyOptionA>
+		<ReplyOptionB>b</ReplyOptionB>
+		<ReplyOptionC>c </ReplyOptionC>
+		<ReplyOptionD>d</ReplyOptionD>
+		<PlayerReplyA>Ttyl</PlayerReplyA>
+		<PlayerReplyB>ttyl</PlayerReplyB>
+		<PlayerReplyC>ttyl</PlayerReplyC>
+		<PlayerReplyD>Ttyl</PlayerReplyD>
+		<APointsTo>0</APointsTo>
+		<BPointsTo>0</BPointsTo>
+		<CPointsTo>0</CPointsTo>
+		<DPointsTo>0</DPointsTo>
+	</Dialogue>
+</DialogueTable>

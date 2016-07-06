@@ -1,0 +1,2 @@
+^C:\USERS\STEPHEN\DOCUMENTS\AIMESSAGE\AIMESSAGE.MKB
+"C:\Marmalade\6.2\s3e\python\python.exe" "C:\Marmalade\6.2\s3e\makefile_builder\mkb.py" "c:/Users/Stephen/Documents/AIMessage/AIMessage.mkb" "--default-buildenv=vc10" --msvc-project

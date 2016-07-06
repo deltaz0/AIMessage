@@ -1,0 +1,80 @@
+﻿Build started 3/28/2013 8:52:24 PM.
+     1>Project "C:\Users\Stephen\AIMessage_GoogleCode\March 28 - Start Working on Interface\team-game-4410\Game Source\XmlInterface\xmlarraytester\xmlarraytester\xmlarraytester.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\xmlarraytester.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt DialogueManager.cpp dialogueRow.cpp history.cpp main.cpp npc.cpp ReplyArray.cpp tinystr.cpp tinyxml.cpp tinyxmlerror.cpp tinyxmlparser.cpp xmlLoader.cpp
+         xmlLoader.cpp
+     1>c:\users\stephen\aimessage_googlecode\march 28 - start working on interface\team-game-4410\game source\xmlinterface\xmlarraytester\xmlarraytester\xmlloader.cpp(32): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+         tinyxmlparser.cpp
+         tinyxmlerror.cpp
+         tinyxml.cpp
+         tinystr.cpp
+         ReplyArray.cpp
+     1>c:\users\stephen\aimessage_googlecode\march 28 - start working on interface\team-game-4410\game source\xmlinterface\xmlarraytester\xmlarraytester\replyarray.cpp(23): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+         npc.cpp
+     1>c:\users\stephen\aimessage_googlecode\march 28 - start working on interface\team-game-4410\game source\xmlinterface\xmlarraytester\xmlarraytester\npc.cpp(27): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\stephen\aimessage_googlecode\march 28 - start working on interface\team-game-4410\game source\xmlinterface\xmlarraytester\xmlarraytester\npc.cpp(28): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+         main.cpp
+         history.cpp
+     1>c:\users\stephen\aimessage_googlecode\march 28 - start working on interface\team-game-4410\game source\xmlinterface\xmlarraytester\xmlarraytester\history.cpp(22): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\stephen\aimessage_googlecode\march 28 - start working on interface\team-game-4410\game source\xmlinterface\xmlarraytester\xmlarraytester\history.cpp(23): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\stephen\aimessage_googlecode\march 28 - start working on interface\team-game-4410\game source\xmlinterface\xmlarraytester\xmlarraytester\history.cpp(25): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\stephen\aimessage_googlecode\march 28 - start working on interface\team-game-4410\game source\xmlinterface\xmlarraytester\xmlarraytester\history.cpp(47): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\stephen\aimessage_googlecode\march 28 - start working on interface\team-game-4410\game source\xmlinterface\xmlarraytester\xmlarraytester\history.cpp(52): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\stephen\aimessage_googlecode\march 28 - start working on interface\team-game-4410\game source\xmlinterface\xmlarraytester\xmlarraytester\history.cpp(55): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\stephen\aimessage_googlecode\march 28 - start working on interface\team-game-4410\game source\xmlinterface\xmlarraytester\xmlarraytester\history.cpp(78): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(867) : see declaration of 'itoa'
+     1>c:\users\stephen\aimessage_googlecode\march 28 - start working on interface\team-game-4410\game source\xmlinterface\xmlarraytester\xmlarraytester\history.cpp(98): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\stephen\aimessage_googlecode\march 28 - start working on interface\team-game-4410\game source\xmlinterface\xmlarraytester\xmlarraytester\history.cpp(113): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(867) : see declaration of 'itoa'
+     1>c:\users\stephen\aimessage_googlecode\march 28 - start working on interface\team-game-4410\game source\xmlinterface\xmlarraytester\xmlarraytester\history.cpp(127): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+         dialogueRow.cpp
+     1>c:\users\stephen\aimessage_googlecode\march 28 - start working on interface\team-game-4410\game source\xmlinterface\xmlarraytester\xmlarraytester\dialoguerow.cpp(40): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\stephen\aimessage_googlecode\march 28 - start working on interface\team-game-4410\game source\xmlinterface\xmlarraytester\xmlarraytester\dialoguerow.cpp(45): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\stephen\aimessage_googlecode\march 28 - start working on interface\team-game-4410\game source\xmlinterface\xmlarraytester\xmlarraytester\dialoguerow.cpp(46): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\stephen\aimessage_googlecode\march 28 - start working on interface\team-game-4410\game source\xmlinterface\xmlarraytester\xmlarraytester\dialoguerow.cpp(47): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\stephen\aimessage_googlecode\march 28 - start working on interface\team-game-4410\game source\xmlinterface\xmlarraytester\xmlarraytester\dialoguerow.cpp(48): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+         DialogueManager.cpp
+         Generating Code...
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Stephen\AIMessage_GoogleCode\March 28 - Start Working on Interface\team-game-4410\Game Source\XmlInterface\xmlarraytester\Debug\xmlarraytester.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\xmlarraytester.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Stephen\AIMessage_GoogleCode\March 28 - Start Working on Interface\team-game-4410\Game Source\XmlInterface\xmlarraytester\Debug\xmlarraytester.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Stephen\AIMessage_GoogleCode\March 28 - Start Working on Interface\team-game-4410\Game Source\XmlInterface\xmlarraytester\Debug\xmlarraytester.lib" /MACHINE:X86 Debug\DialogueManager.obj
+         Debug\dialogueRow.obj
+         Debug\history.obj
+         Debug\main.obj
+         Debug\npc.obj
+         Debug\ReplyArray.obj
+         Debug\tinystr.obj
+         Debug\tinyxml.obj
+         Debug\tinyxmlerror.obj
+         Debug\tinyxmlparser.obj
+         Debug\xmlLoader.obj
+         LINK : C:\Users\Stephen\AIMessage_GoogleCode\March 28 - Start Working on Interface\team-game-4410\Game Source\XmlInterface\xmlarraytester\Debug\xmlarraytester.exe not found or not built by the last incremental link; performing full link
+         xmlarraytester.vcxproj -> C:\Users\Stephen\AIMessage_GoogleCode\March 28 - Start Working on Interface\team-game-4410\Game Source\XmlInterface\xmlarraytester\Debug\xmlarraytester.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Stephen\AIMessage_GoogleCode\March 28 - Start Working on Interface\team-game-4410\Game Source\XmlInterface\xmlarraytester\Debug\xmlarraytester.exe;#1" /manifest Debug\xmlarraytester.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\xmlarraytester.unsuccessfulbuild".
+         Touching "Debug\xmlarraytester.lastbuildstate".
+     1>Done Building Project "C:\Users\Stephen\AIMessage_GoogleCode\March 28 - Start Working on Interface\team-game-4410\Game Source\XmlInterface\xmlarraytester\xmlarraytester\xmlarraytester.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.82

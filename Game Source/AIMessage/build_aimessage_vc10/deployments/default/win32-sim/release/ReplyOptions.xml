@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ReplyOptionsList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<option>Excited</option>
+	<option>Indifferent</option>
+	<option>Unhappy</option>
+	<option>Excited (Lie)</option>
+	<option>Relieved</option>
+	<option>Worried</option>
+	<option>Apprehensive</option>
+	<option>Happy</option>
+	<option>Question</option>
+</ReplyOptionsList>

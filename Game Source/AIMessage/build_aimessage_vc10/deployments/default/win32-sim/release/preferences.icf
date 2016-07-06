@@ -1,0 +1,66 @@
+# Settings database for s3e desktop development environment
+
+# Defines settings with the syntax Setting=command=value,command=value,...
+# Where command is one of:
+# 'Type': 'value' must be either 'int', 'bool' or 'string' defining an integer, boolean or string setting. Default is 'int'
+# 'Default': 'value' is the default value for the setting. If 'Type' is integer then this must be an integer.
+# 'Allowed': 'value' is of the form 'valid1 valid2 valid3 ...' where valid1, valid2, valid3, ... 
+#            are the allowed strings for this setting (these may be strings of integers). Default is to allow
+#            all values
+#            For integer settings, if the allowed values do not begin with integers, then the setting may still
+#            take on the value of one of the allowed values, in which case s3eEmulatorConfigGetInt will return
+#            the index of the allowed value. e.g. Type=int,Allowed= myvalue1 myvalue2, Default=myvalue2 will
+#            create an integer setting that defaults to 1
+# 'Min'   : 'value' is the minimum value for this setting. Only applies to integer settings. Default is 0
+# 'Max'   : 'value' is the minimum value for this setting. Only applies to integer settings. Default is 0
+#            Note if min == max then no restriction is applies and all values are allowed.
+
+WinTitle=               Type=string, Default="Marmalade - x86 Simulator"
+WindowPosX=             Type=int,Min=-1, Max=4096, Default=-1
+WindowPosY=             Type=int,Min=-1, Max=4096, Default=-1
+BacklightShow=          Type=bool, Default=true
+RemoteEnabled=          Type=bool, Default=false
+RemoteDeviceName=       Type=string
+RemoteScreenEnabled=    Type=bool, Default=false
+RemoteAutoImageQuality= Type=bool, Default=true
+RemoteTargetFramerate=   Type=int,Min=1,Max=100,Default=20
+RemoteImageQuality=     Type=int,Min=0,Max=100,Default=40
+SurfaceZoomX=           Type=float,Min=0.2,Max=1000.0,Default=1.0
+SurfaceZoomY=           Type=float,Min=0.2,Max=1000.0,Default=1.0
+SurfaceFilter=          Type=bool,Default=false
+SurfaceUseDirectDraw=   Type=bool,Default=true
+SurfaceNoScaling=       Type=bool,Default=false
+SurfaceFullScreen=      Type=bool,Default=false
+SurfacePreFullscreenWidth= Type=int,Default=320
+SurfacePreFullscreenHeight= Type=int,Default=480
+Keyboards3eKeyRSK=      Type=string, Default=F3
+Keyboards3eKeyLSK=      Type=string, Default=F1
+Keyboards3eKeyLS=       Type=string, Default=LShift
+Keyboards3eKeyRS=       Type=string, Default=RShift
+Keyboards3eKeyStar=     Type=string, Default="Num Pad *"
+Keyboards3eKeyOk=       Type=string, Default=F2
+Keyboards3eKeyCLR=      Type=string, Default=Backspace
+Keyboards3eKeyVolUp=    Type=string, Default="Page Up"
+Keyboards3eKeyVolDown=  Type=string, Default="Page Down"
+Keyboards3eKeyCamera=   Type=string, Default=None
+Keyboards3eKeyMic=      Type=string, Default=None
+Keyboards3eKeyFn=       Type=string, Default=None
+Keyboards3eKeySym=      Type=string, Default=None
+Keyboards3eKeyAccept=   Type=string, Default=None
+Keyboards3eKeyEnd=      Type=string, Default=None
+Keyboards3eKeyHomePage= Type=string, Default=None
+Keyboards3eKeyButton1=  Type=string, Default=None
+Keyboards3eKeyButton2=  Type=string, Default=None
+Keyboards3eKeyButton3=  Type=string, Default=None
+Keyboards3eKeyButton4=  Type=string, Default=None
+Keyboards3eKeyButton5=  Type=string, Default=None
+Keyboards3eKeyButton6=  Type=string, Default=None
+Keyboards3eKeyButton7=  Type=string, Default=None
+Keyboards3eKeyButton8=  Type=string, Default=None
+KeyboardDirectInputExclusive=   Type=bool
+MetricsEnable=          Type=bool, Default=false
+SkinFile=               Type=string
+EmulatorRotateAgainstSurface= Type=bool, Default=true
+GLUseOffscreenBuffer=   Type=bool, Default=true
+
+# vim: list:expandtab

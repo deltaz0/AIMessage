@@ -1,0 +1,24 @@
+Doing: "Package" on Configuration Default to win32
+
+running s3e_deploy commandline: "c:\marmalade\6.2\s3e\python\python.exe" "C:\Marmalade\6.2\s3e\deploy\main.py" "-n" "--os" "win32" "--arch" "x86" "c:\Users\Stephen\AIMessage_GoogleCode\April 3\team-game-4410\Game Source\AIMessage\build_aimessage_vc10\deploy_temp.py"
+
+CWD=c:\Users\Stephen\AIMessage_GoogleCode\April 3\team-game-4410\Game Source\AIMessage\build_aimessage_vc10
+
+Marmalade Deployment Tool v1.3
+
+Copyright (C) 2001-2012 Marmalade
+
+Licensed Platforms=NONE, current platform=win32
+
+WARNING: temporary folder already exists (c:\Users\Stephen\AIMessage_GoogleCode\April 3\team-game-4410\Game Source\AIMessage\build_aimessage_vc10\deployments\default\win32\release.old)
+
+deploying AIMessage [0.0.1] [x86-release] for 'win32' to folder: 'deployments\default\win32\release'
+
+--> copying files ...
+
+WARNING: DispFixRot has value 1 which is not of correct type string
+
+--> performing custom deployment steps for: 'win32'
+
+SUCCESS (WITH WARNINGS): EVALUATION USE ONLY package written to 'c:\Users\Stephen\AIMessage_GoogleCode\April 3\team-game-4410\Game Source\AIMessage\build_aimessage_vc10\deployments\default\win32\release' [took 6.46s]. This package is not licensed for commercial use
+
